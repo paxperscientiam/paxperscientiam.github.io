@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <style>
+          html {
+           font-family: Verdana, sans-serif;
+          }
+          .container {
+           width: 100%;
+           height: 400px;
+           background-color: black;
+           border: 1px solid black;
+           color: white;   /* text color for messages */
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Seadragon Ajax</h1>
+        <div id="container" class="container"></div>
+        <script type="text/javascript" src="seadragon.js"></script>
+
+        <script type="text/javascript">
+          var viewer = new Seadragon.Viewer("container");
+          viewer.openDzi("WorldCup/foo.dzi");
+        </script>
+    </body>
+</html>
