@@ -17,11 +17,16 @@
         </style>
     </head>
     <body>
-        <div id="container" class="container"></div>
-        <script type="text/javascript" src="seadragon.js"></script>
+        <div id="worldCupDragon" class="container"></div>
+        <script type="text/javascript" src="openseadragon.min.js"></script>
         <script type="text/javascript">
-          var viewer = new Seadragon.Viewer("container");
-          viewer.openDzi("WorldCup/foo.dzi");
+          var viewer = OpenSeadragon({
+              // debugMode: true,
+              id: "worldCupDragon",
+              prefixUrl: "images/",
+              tileSources: "worldcup/foo.dzi",
+              showNavigator:true
+          });
         </script>
     </body>
 </html>
