@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <style>
+          html {
+           font-family: Verdana, sans-serif;
+          }
+          .container {
+           width: 100%;
+           height: 510px;
+           background-color: black;
+           border: 1px solid black;
+           color: white;   /* text color for messages */
+          }
+        </style>
+    </head>
+    <body>
+        <div id="eGovSurvey2012" class="container"></div>
+        <script type="text/javascript" src="../openseadragon.min.js"></script>
+        <script type="text/javascript">
+          var viewer = OpenSeadragon({
+              // debugMode: true,
+              id: "eGovSurvey2012",
+              prefixUrl: "../images/",
+              tileSources: "E-Government_Development_Survey_2012.dzi",
+              showNavigator:true
+          });
+        </script>
+    </body>
+</html>
