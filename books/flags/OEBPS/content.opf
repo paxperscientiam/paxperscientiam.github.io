@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 14.0.2" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>UN-Flags-Book-1</dc:title>
+		<dc:date>2019-06-10T20:55:07Z</dc:date>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2019-06-10T20:55:08Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">landscape</meta>
+		<meta property="rendition:spread">both</meta>
+	</metadata>
+	<manifest>
+		<item id="UN-Flags-1945-1958-1" href="UN-Flags-1945-1958-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-2" href="UN-Flags-1945-1958-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-3" href="UN-Flags-1945-1958-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-4" href="UN-Flags-1945-1958-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-5" href="UN-Flags-1945-1958-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-6" href="UN-Flags-1945-1958-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-7" href="UN-Flags-1945-1958-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-8" href="UN-Flags-1945-1958-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-9" href="UN-Flags-1945-1958-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-10" href="UN-Flags-1945-1958-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-11" href="UN-Flags-1945-1958-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-12" href="UN-Flags-1945-1958-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-13" href="UN-Flags-1945-1958-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-14" href="UN-Flags-1945-1958-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-15" href="UN-Flags-1945-1958-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-16" href="UN-Flags-1945-1958-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-17" href="UN-Flags-1945-1958-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-18" href="UN-Flags-1945-1958-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-19" href="UN-Flags-1945-1958-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-20" href="UN-Flags-1945-1958-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-21" href="UN-Flags-1945-1958-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-22" href="UN-Flags-1945-1958-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-23" href="UN-Flags-1945-1958-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-24" href="UN-Flags-1945-1958-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-25" href="UN-Flags-1945-1958-25.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1945-1958-26" href="UN-Flags-1945-1958-26.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-1" href="UN-Flags-1959-1970-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-2" href="UN-Flags-1959-1970-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-3" href="UN-Flags-1959-1970-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-4" href="UN-Flags-1959-1970-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-5" href="UN-Flags-1959-1970-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-6" href="UN-Flags-1959-1970-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-7" href="UN-Flags-1959-1970-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-8" href="UN-Flags-1959-1970-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-9" href="UN-Flags-1959-1970-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-10" href="UN-Flags-1959-1970-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-11" href="UN-Flags-1959-1970-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-12" href="UN-Flags-1959-1970-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-13" href="UN-Flags-1959-1970-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-14" href="UN-Flags-1959-1970-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-15" href="UN-Flags-1959-1970-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-16" href="UN-Flags-1959-1970-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-17" href="UN-Flags-1959-1970-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-18" href="UN-Flags-1959-1970-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-19" href="UN-Flags-1959-1970-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-20" href="UN-Flags-1959-1970-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-21" href="UN-Flags-1959-1970-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-22" href="UN-Flags-1959-1970-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-23" href="UN-Flags-1959-1970-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1959-1970-24" href="UN-Flags-1959-1970-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-1" href="UN-Flags-1971-1983-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-2" href="UN-Flags-1971-1983-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-3" href="UN-Flags-1971-1983-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-4" href="UN-Flags-1971-1983-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-5" href="UN-Flags-1971-1983-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-6" href="UN-Flags-1971-1983-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-7" href="UN-Flags-1971-1983-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-8" href="UN-Flags-1971-1983-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-9" href="UN-Flags-1971-1983-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-10" href="UN-Flags-1971-1983-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-11" href="UN-Flags-1971-1983-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-12" href="UN-Flags-1971-1983-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-13" href="UN-Flags-1971-1983-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-14" href="UN-Flags-1971-1983-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-15" href="UN-Flags-1971-1983-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-16" href="UN-Flags-1971-1983-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-17" href="UN-Flags-1971-1983-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-18" href="UN-Flags-1971-1983-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-19" href="UN-Flags-1971-1983-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-20" href="UN-Flags-1971-1983-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-21" href="UN-Flags-1971-1983-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-22" href="UN-Flags-1971-1983-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-23" href="UN-Flags-1971-1983-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1971-1983-24" href="UN-Flags-1971-1983-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-1" href="UN-Flags-1984-1994-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-2" href="UN-Flags-1984-1994-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-3" href="UN-Flags-1984-1994-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-4" href="UN-Flags-1984-1994-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-5" href="UN-Flags-1984-1994-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-6" href="UN-Flags-1984-1994-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-7" href="UN-Flags-1984-1994-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-8" href="UN-Flags-1984-1994-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-9" href="UN-Flags-1984-1994-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-10" href="UN-Flags-1984-1994-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-11" href="UN-Flags-1984-1994-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-12" href="UN-Flags-1984-1994-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-13" href="UN-Flags-1984-1994-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-14" href="UN-Flags-1984-1994-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-15" href="UN-Flags-1984-1994-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-16" href="UN-Flags-1984-1994-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-17" href="UN-Flags-1984-1994-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-18" href="UN-Flags-1984-1994-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-19" href="UN-Flags-1984-1994-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-20" href="UN-Flags-1984-1994-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-21" href="UN-Flags-1984-1994-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-22" href="UN-Flags-1984-1994-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-23" href="UN-Flags-1984-1994-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1984-1994-24" href="UN-Flags-1984-1994-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-1" href="UN-Flags-1995-2008-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-2" href="UN-Flags-1995-2008-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-3" href="UN-Flags-1995-2008-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-4" href="UN-Flags-1995-2008-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-5" href="UN-Flags-1995-2008-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-6" href="UN-Flags-1995-2008-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-7" href="UN-Flags-1995-2008-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-8" href="UN-Flags-1995-2008-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-9" href="UN-Flags-1995-2008-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-10" href="UN-Flags-1995-2008-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-11" href="UN-Flags-1995-2008-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-12" href="UN-Flags-1995-2008-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-13" href="UN-Flags-1995-2008-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-14" href="UN-Flags-1995-2008-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-15" href="UN-Flags-1995-2008-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-16" href="UN-Flags-1995-2008-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-17" href="UN-Flags-1995-2008-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-18" href="UN-Flags-1995-2008-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-19" href="UN-Flags-1995-2008-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-20" href="UN-Flags-1995-2008-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-21" href="UN-Flags-1995-2008-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-22" href="UN-Flags-1995-2008-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-23" href="UN-Flags-1995-2008-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-1995-2008-24" href="UN-Flags-1995-2008-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-1" href="UN-Flags-2009-2019-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-2" href="UN-Flags-2009-2019-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-3" href="UN-Flags-2009-2019-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-4" href="UN-Flags-2009-2019-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-5" href="UN-Flags-2009-2019-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-6" href="UN-Flags-2009-2019-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-7" href="UN-Flags-2009-2019-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-8" href="UN-Flags-2009-2019-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-9" href="UN-Flags-2009-2019-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-10" href="UN-Flags-2009-2019-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-11" href="UN-Flags-2009-2019-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-12" href="UN-Flags-2009-2019-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-13" href="UN-Flags-2009-2019-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-14" href="UN-Flags-2009-2019-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-15" href="UN-Flags-2009-2019-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-16" href="UN-Flags-2009-2019-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-17" href="UN-Flags-2009-2019-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="UN-Flags-2009-2019-18" href="UN-Flags-2009-2019-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles_0.css" href="css/idGeneratedStyles_0.css" media-type="text/css" />
+		<item id="idGeneratedStyles_1.css" href="css/idGeneratedStyles_1.css" media-type="text/css" />
+		<item id="idGeneratedStyles_2.css" href="css/idGeneratedStyles_2.css" media-type="text/css" />
+		<item id="idGeneratedStyles_3.css" href="css/idGeneratedStyles_3.css" media-type="text/css" />
+		<item id="idGeneratedStyles_4.css" href="css/idGeneratedStyles_4.css" media-type="text/css" />
+		<item id="idGeneratedStyles_5.css" href="css/idGeneratedStyles_5.css" media-type="text/css" />
+		<item id="idGeneratedStyles_6.css" href="css/idGeneratedStyles_6.css" media-type="text/css" />
+		<item id="Acuta-Book.otf" href="font/Acuta-Book.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Acuta-Light.otf" href="font/Acuta-Light.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Acuta-Medium.otf" href="font/Acuta-Medium.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Acuta-Thin.otf" href="font/Acuta-Thin.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Arial-ItalicMT.ttf" href="font/Arial-ItalicMT.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="Palatino-Roman.ttc" href="font/Palatino-Roman.ttc" media-type="application/x-font-ttf" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="x12.png" href="image/12.png" media-type="image/png" />
+		<item id="x13.png" href="image/13.png" media-type="image/png" />
+		<item id="x14.png" href="image/14.png" media-type="image/png" />
+		<item id="x15.png" href="image/15.png" media-type="image/png" />
+		<item id="x74.png" href="image/74.png" media-type="image/png" />
+		<item id="x81.png" href="image/81.png" media-type="image/png" />
+		<item id="x86.png" href="image/86.png" media-type="image/png" />
+		<item id="x87.png" href="image/87.png" media-type="image/png" />
+		<item id="x148.png" href="image/148.png" media-type="image/png" />
+		<item id="x155.png" href="image/155.png" media-type="image/png" />
+		<item id="x156.png" href="image/156.png" media-type="image/png" />
+		<item id="x223.png" href="image/223.png" media-type="image/png" />
+		<item id="x237.png" href="image/237.png" media-type="image/png" />
+		<item id="x238.png" href="image/238.png" media-type="image/png" />
+		<item id="x398.png" href="image/398.png" media-type="image/png" />
+		<item id="x399.png" href="image/399.png" media-type="image/png" />
+		<item id="x1153.png" href="image/1153.png" media-type="image/png" />
+		<item id="x1313.png" href="image/1313.png" media-type="image/png" />
+		<item id="x1423.png" href="image/1423.png" media-type="image/png" />
+		<item id="x1424.png" href="image/1424.png" media-type="image/png" />
+		<item id="x1540.png" href="image/1540.png" media-type="image/png" />
+		<item id="x1795.png" href="image/1795.png" media-type="image/png" />
+		<item id="x2247.png" href="image/2247.png" media-type="image/png" />
+		<item id="x2265.png" href="image/2265.png" media-type="image/png" />
+		<item id="x2616.png" href="image/2616.png" media-type="image/png" />
+		<item id="x2617.png" href="image/2617.png" media-type="image/png" />
+		<item id="x3399.png" href="image/3399.png" media-type="image/png" />
+		<item id="x4505.png" href="image/4505.png" media-type="image/png" />
+		<item id="x4506.png" href="image/4506.png" media-type="image/png" />
+		<item id="x5972.png" href="image/5972.png" media-type="image/png" />
+		<item id="x7857.png" href="image/7857.png" media-type="image/png" />
+		<item id="x13436.png" href="image/13436.png" media-type="image/png" />
+		<item id="x13445.png" href="image/13445.png" media-type="image/png" />
+		<item id="x13468.png" href="image/13468.png" media-type="image/png" />
+		<item id="x13947.png" href="image/13947.png" media-type="image/png" />
+		<item id="x14166.png" href="image/14166.png" media-type="image/png" />
+		<item id="x14167.png" href="image/14167.png" media-type="image/png" />
+		<item id="x18612.png" href="image/18612.png" media-type="image/png" />
+		<item id="x22408.png" href="image/22408.png" media-type="image/png" />
+		<item id="x23851.png" href="image/23851.png" media-type="image/png" />
+		<item id="Afghanistan-1946-1972.png" href="image/Afghanistan-1946-1972.png" media-type="image/png" />
+		<item id="Afghanistan-1973.png" href="image/Afghanistan-1973.png" media-type="image/png" />
+		<item id="Afghanistan-1974-1977.png" href="image/Afghanistan-1974-1977.png" media-type="image/png" />
+		<item id="Afghanistan-1978.png" href="image/Afghanistan-1978.png" media-type="image/png" />
+		<item id="Afghanistan-1979.png" href="image/Afghanistan-1979.png" media-type="image/png" />
+		<item id="Afghanistan-1980-1986.png" href="image/Afghanistan-1980-1986.png" media-type="image/png" />
+		<item id="Afghanistan-1987-1991.png" href="image/Afghanistan-1987-1991.png" media-type="image/png" />
+		<item id="Afghanistan-1992-1995.png" href="image/Afghanistan-1992-1995.png" media-type="image/png" />
+		<item id="Afghanistan-1996.png" href="image/Afghanistan-1996.png" media-type="image/png" />
+		<item id="Afghanistan-1997-2000.png" href="image/Afghanistan-1997-2000.png" media-type="image/png" />
+		<item id="Afghanistan-2001.png" href="image/Afghanistan-2001.png" media-type="image/png" />
+		<item id="Afghanistan-2002-2003.png" href="image/Afghanistan-2002-2003.png" media-type="image/png" />
+		<item id="Afghanistan-2004-2012.png" href="image/Afghanistan-2004-2012.png" media-type="image/png" />
+		<item id="Afghanistan-2013-P.png" href="image/Afghanistan-2013-P.png" media-type="image/png" />
+		<item id="Albania-1955-1991.png" href="image/Albania-1955-1991.png" media-type="image/png" />
+		<item id="Albania-1992-P.png" href="image/Albania-1992-P.png" media-type="image/png" />
+		<item id="Algeria-1962-P.png" href="image/Algeria-1962-P.png" media-type="image/png" />
+		<item id="Andorra-1993-P.png" href="image/Andorra-1993-P.png" media-type="image/png" />
+		<item id="Angola-1976-P.png" href="image/Angola-1976-P.png" media-type="image/png" />
+		<item id="Antigua-and-Barbuda-1981-P.png" href="image/Antigua-and-Barbuda-1981-P.png" media-type="image/png" />
+		<item id="Argentina-1945-P.png" href="image/Argentina-1945-P.png" media-type="image/png" />
+		<item id="Armenia-1992-P.png" href="image/Armenia-1992-P.png" media-type="image/png" />
+		<item id="Australia-1945-P.png" href="image/Australia-1945-P.png" media-type="image/png" />
+		<item id="Austria-1955-P.png" href="image/Austria-1955-P.png" media-type="image/png" />
+		<item id="Azerbaijan-1992-P.png" href="image/Azerbaijan-1992-P.png" media-type="image/png" />
+		<item id="Bahamas-1973-P.png" href="image/Bahamas-1973-P.png" media-type="image/png" />
+		<item id="Bahrain-1971.png" href="image/Bahrain-1971.png" media-type="image/png" />
+		<item id="Bahrain-1972-2001.png" href="image/Bahrain-1972-2001.png" media-type="image/png" />
+		<item id="Bahrain-2002-P.png" href="image/Bahrain-2002-P.png" media-type="image/png" />
+		<item id="Bangladesh-1974-P.png" href="image/Bangladesh-1974-P.png" media-type="image/png" />
+		<item id="Barbados-1966-P.png" href="image/Barbados-1966-P.png" media-type="image/png" />
+		<item id="Belarus-1991-1994.png" href="image/Belarus-1991-1994.png" media-type="image/png" />
+		<item id="Belarus-1995-2011.png" href="image/Belarus-1995-2011.png" media-type="image/png" />
+		<item id="Belarus-2012-P.png" href="image/Belarus-2012-P.png" media-type="image/png" />
+		<item id="Belgium-1945-P.png" href="image/Belgium-1945-P.png" media-type="image/png" />
+		<item id="Belize-1981-P.png" href="image/Belize-1981-P.png" media-type="image/png" />
+		<item id="Benin-1975-1989.png" href="image/Benin-1975-1989.png" media-type="image/png" />
+		<item id="Benin-1990-P.png" href="image/Benin-1990-P.png" media-type="image/png" />
+		<item id="Bhutan-1971-P.png" href="image/Bhutan-1971-P.png" media-type="image/png" />
+		<item id="Bolivia-1945-P.png" href="image/Bolivia-1945-P.png" media-type="image/png" />
+		<item id="Bosnia-1992-1997.png" href="image/Bosnia-1992-1997.png" media-type="image/png" />
+		<item id="Bosnia-1998-P.png" href="image/Bosnia-1998-P.png" media-type="image/png" />
+		<item id="Botswana-1966-P.png" href="image/Botswana-1966-P.png" media-type="image/png" />
+		<item id="Brazil-1960-1967.png" href="image/Brazil-1960-1967.png" media-type="image/png" />
+		<item id="Brazil-1968-1991.png" href="image/Brazil-1968-1991.png" media-type="image/png" />
+		<item id="Brazil-1992-P.png" href="image/Brazil-1992-P.png" media-type="image/png" />
+		<item id="Brunei-1984-P.png" href="image/Brunei-1984-P.png" media-type="image/png" />
+		<item id="Bulgaria-1955-1966.png" href="image/Bulgaria-1955-1966.png" media-type="image/png" />
+		<item id="Bulgaria-1967-1970.png" href="image/Bulgaria-1967-1970.png" media-type="image/png" />
+		<item id="Bulgaria-1971-1990.png" href="image/Bulgaria-1971-1990.png" media-type="image/png" />
+		<item id="Bulgaria-1991-P.png" href="image/Bulgaria-1991-P.png" media-type="image/png" />
+		<item id="Burkina-Faso-1984-P.png" href="image/Burkina-Faso-1984-P.png" media-type="image/png" />
+		<item id="Burma-1948-1973.png" href="image/Burma-1948-1973.png" media-type="image/png" />
+		<item id="Burundi-1962-1965.png" href="image/Burundi-1962-1965.png" media-type="image/png" />
+		<item id="Burundi-1966.png" href="image/Burundi-1966.png" media-type="image/png" />
+		<item id="Burundi-1967-P.png" href="image/Burundi-1967-P.png" media-type="image/png" />
+		<item id="Byelorussian-SSR-1945-1950.png" href="image/Byelorussian-SSR-1945-1950.png" media-type="image/png" />
+		<item id="Byelorussian-SSR-1951-1990.png" href="image/Byelorussian-SSR-1951-1990.png" media-type="image/png" />
+		<item id="Cambodia-1955-1969.png" href="image/Cambodia-1955-1969.png" media-type="image/png" />
+		<item id="Cambodia-1981-1991.png" href="image/Cambodia-1981-1991.png" media-type="image/png" />
+		<item id="Cambodia-1992.png" href="image/Cambodia-1992.png" media-type="image/png" />
+		<item id="Cambodia-1993-P.png" href="image/Cambodia-1993-P.png" media-type="image/png" />
+		<item id="Cameroon-1960.png" href="image/Cameroon-1960.png" media-type="image/png" />
+		<item id="Cameroon-1961-1974.png" href="image/Cameroon-1961-1974.png" media-type="image/png" />
+		<item id="Cameroon-1975-P.png" href="image/Cameroon-1975-P.png" media-type="image/png" />
+		<item id="Canada-1945-1956.png" href="image/Canada-1945-1956.png" media-type="image/png" />
+		<item id="Canada-1957-1964.png" href="image/Canada-1957-1964.png" media-type="image/png" />
+		<item id="Canada-1965-P.png" href="image/Canada-1965-P.png" media-type="image/png" />
+		<item id="Cape-Verde-1975-1991.png" href="image/Cape-Verde-1975-1991.png" media-type="image/png" />
+		<item id="Cape-Verde-1992-2012.png" href="image/Cape-Verde-1992-2012.png" media-type="image/png" />
+		<item id="CAR-1960-P.png" href="image/CAR-1960-P.png" media-type="image/png" />
+		<item id="Ceylon-1951-1971.png" href="image/Ceylon-1951-1971.png" media-type="image/png" />
+		<item id="Chad-1960-P.png" href="image/Chad-1960-P.png" media-type="image/png" />
+		<item id="Chile-1945-P.png" href="image/Chile-1945-P.png" media-type="image/png" />
+		<item id="China-1971-P.png" href="image/China-1971-P.png" media-type="image/png" />
+		<item id="Colombia-1945-P.png" href="image/Colombia-1945-P.png" media-type="image/png" />
+		<item id="Comoros-1975.png" href="image/Comoros-1975.png" media-type="image/png" />
+		<item id="Comoros-1976-1977.png" href="image/Comoros-1976-1977.png" media-type="image/png" />
+		<item id="Comoros-1978-1991.png" href="image/Comoros-1978-1991.png" media-type="image/png" />
+		<item id="Comoros-1992-1995.png" href="image/Comoros-1992-1995.png" media-type="image/png" />
+		<item id="Comoros-1996-2001.png" href="image/Comoros-1996-2001.png" media-type="image/png" />
+		<item id="Comoros-2002-P.png" href="image/Comoros-2002-P.png" media-type="image/png" />
+		<item id="Congo-1960-1969.png" href="image/Congo-1960-1969.png" media-type="image/png" />
+		<item id="Congo-1970-1990.png" href="image/Congo-1970-1990.png" media-type="image/png" />
+		<item id="Congo-1991-P.png" href="image/Congo-1991-P.png" media-type="image/png" />
+		<item id="Costa-Rica-1945-P.png" href="image/Costa-Rica-1945-P.png" media-type="image/png" />
+		<item id="Cote-dIvoire-1960-P.png" href="image/Cote-dIvoire-1960-P.png" media-type="image/png" />
+		<item id="Croatia-1992-P.png" href="image/Croatia-1992-P.png" media-type="image/png" />
+		<item id="Cuba-1945-P.png" href="image/Cuba-1945-P.png" media-type="image/png" />
+		<item id="Cyprus-1960-2005.png" href="image/Cyprus-1960-2005.png" media-type="image/png" />
+		<item id="Cyprus-2006-P.png" href="image/Cyprus-2006-P.png" media-type="image/png" />
+		<item id="Czech-Rep-1993-P.png" href="image/Czech-Rep-1993-P.png" media-type="image/png" />
+		<item id="D-Rep-of-Korea-1992-P.png" href="image/D-Rep-of-Korea-1992-P.png" media-type="image/png" />
+		<item id="Dahomey-1960-1974.png" href="image/Dahomey-1960-1974.png" media-type="image/png" />
+		<item id="Dem-Yemen-1967-1989.png" href="image/Dem-Yemen-1967-1989.png" media-type="image/png" />
+		<item id="Denmark-1945-P.png" href="image/Denmark-1945-P.png" media-type="image/png" />
+		<item id="Djibouti-1977-P.png" href="image/Djibouti-1977-P.png" media-type="image/png" />
+		<item id="Dominica-1978-1980.png" href="image/Dominica-1978-1980.png" media-type="image/png" />
+		<item id="Dominica-1981-1987.png" href="image/Dominica-1981-1987.png" media-type="image/png" />
+		<item id="Dominica-1988-1989.png" href="image/Dominica-1988-1989.png" media-type="image/png" />
+		<item id="Dominica-1990-P.png" href="image/Dominica-1990-P.png" media-type="image/png" />
+		<item id="Dominican-Rep-1945-P.png" href="image/Dominican-Rep-1945-P.png" media-type="image/png" />
+		<item id="DR-Congo-1960-1962.png" href="image/DR-Congo-1960-1962.png" media-type="image/png" />
+		<item id="DR-Congo-1963-1965.png" href="image/DR-Congo-1963-1965.png" media-type="image/png" />
+		<item id="DR-Congo-1997-2002.png" href="image/DR-Congo-1997-2002.png" media-type="image/png" />
+		<item id="DR-Congo-2003-2005.png" href="image/DR-Congo-2003-2005.png" media-type="image/png" />
+		<item id="DR-Congo-2006-P.png" href="image/DR-Congo-2006-P.png" media-type="image/png" />
+		<item id="Ecuador-1945-P.png" href="image/Ecuador-1945-P.png" media-type="image/png" />
+		<item id="Egypt-1945-1952.png" href="image/Egypt-1945-1952.png" media-type="image/png" />
+		<item id="Egypt-1953-1957.png" href="image/Egypt-1953-1957.png" media-type="image/png" />
+		<item id="Egypt-1984-P.png" href="image/Egypt-1984-P.png" media-type="image/png" />
+		<item id="El-Salvador-1945-P.png" href="image/El-Salvador-1945-P.png" media-type="image/png" />
+		<item id="Equatorial-Guinea-1968-1972.png" href="image/Equatorial-Guinea-1968-1972.png" media-type="image/png" />
+		<item id="Equatorial-Guinea-1973-1978.png" href="image/Equatorial-Guinea-1973-1978.png" media-type="image/png" />
+		<item id="Equatorial-Guinea-1979-P.png" href="image/Equatorial-Guinea-1979-P.png" media-type="image/png" />
+		<item id="Eritrea-1993-P.png" href="image/Eritrea-1993-P.png" media-type="image/png" />
+		<item id="Estonia-1991-P.png" href="image/Estonia-1991-P.png" media-type="image/png" />
+		<item id="Eswatini-2018-P.png" href="image/Eswatini-2018-P.png" media-type="image/png" />
+		<item id="Ethiopia-1945-1973.png" href="image/Ethiopia-1945-1973.png" media-type="image/png" />
+		<item id="Ethiopia-1974.png" href="image/Ethiopia-1974.png" media-type="image/png" />
+		<item id="Ethiopia-1975-1986.png" href="image/Ethiopia-1975-1986.png" media-type="image/png" />
+		<item id="Ethiopia-1987-1990.png" href="image/Ethiopia-1987-1990.png" media-type="image/png" />
+		<item id="Ethiopia-1996-2008.png" href="image/Ethiopia-1996-2008.png" media-type="image/png" />
+		<item id="Ethiopia-2009-P.png" href="image/Ethiopia-2009-P.png" media-type="image/png" />
+		<item id="Fiji-1970-P.png" href="image/Fiji-1970-P.png" media-type="image/png" />
+		<item id="Finland-1955-P.png" href="image/Finland-1955-P.png" media-type="image/png" />
+		<item id="France-1945-P.png" href="image/France-1945-P.png" media-type="image/png" />
+		<item id="Gabon-1960-P.png" href="image/Gabon-1960-P.png" media-type="image/png" />
+		<item id="Gambia-1965-P.png" href="image/Gambia-1965-P.png" media-type="image/png" />
+		<item id="Georgia-1992-2003.png" href="image/Georgia-1992-2003.png" media-type="image/png" />
+		<item id="Georgia-2004-P.png" href="image/Georgia-2004-P.png" media-type="image/png" />
+		<item id="Germany-1990-P.png" href="image/Germany-1990-P.png" media-type="image/png" />
+		<item id="Germany-DDR-1959-1989.png" href="image/Germany-DDR-1959-1989.png" media-type="image/png" />
+		<item id="Germany-Old.png" href="image/Germany-Old.png" media-type="image/png" />
+		<item id="Ghana-1957.png" href="image/Ghana-1957.png" media-type="image/png" />
+		<item id="Ghana-1958-1960.png" href="image/Ghana-1958-1960.png" media-type="image/png" />
+		<item id="Ghana-1961-1963.png" href="image/Ghana-1961-1963.png" media-type="image/png" />
+		<item id="Ghana-1964-1965.png" href="image/Ghana-1964-1965.png" media-type="image/png" />
+		<item id="Greece-1970-1974.png" href="image/Greece-1970-1974.png" media-type="image/png" />
+		<item id="Greece-1975-1977.png" href="image/Greece-1975-1977.png" media-type="image/png" />
+		<item id="Grenada-1974-P.png" href="image/Grenada-1974-P.png" media-type="image/png" />
+		<item id="Guatemala-1945-P.png" href="image/Guatemala-1945-P.png" media-type="image/png" />
+		<item id="Guinea-1958-P.png" href="image/Guinea-1958-P.png" media-type="image/png" />
+		<item id="Guinea-Bissau-1974-P.png" href="image/Guinea-Bissau-1974-P.png" media-type="image/png" />
+		<item id="Guyana-1966-P.png" href="image/Guyana-1966-P.png" media-type="image/png" />
+		<item id="Haiti-1945-1963.png" href="image/Haiti-1945-1963.png" media-type="image/png" />
+		<item id="Haiti-1964-1985.png" href="image/Haiti-1964-1985.png" media-type="image/png" />
+		<item id="Haiti-1986-P.png" href="image/Haiti-1986-P.png" media-type="image/png" />
+		<item id="Honduras-1945-P.png" href="image/Honduras-1945-P.png" media-type="image/png" />
+		<item id="Hungary-1955.png" href="image/Hungary-1955.png" media-type="image/png" />
+		<item id="Hungary-1956.png" href="image/Hungary-1956.png" media-type="image/png" />
+		<item id="Hungary-1990-P.png" href="image/Hungary-1990-P.png" media-type="image/png" />
+		<item id="Iceland-1946-P.png" href="image/Iceland-1946-P.png" media-type="image/png" />
+		<item id="India-1945-1946.png" href="image/India-1945-1946.png" media-type="image/png" />
+		<item id="India-1947-P.png" href="image/India-1947-P.png" media-type="image/png" />
+		<item id="Indonesia-1950-P.png" href="image/Indonesia-1950-P.png" media-type="image/png" />
+		<item id="Iran-1945-1963.png" href="image/Iran-1945-1963.png" media-type="image/png" />
+		<item id="Iran-1964-1978.png" href="image/Iran-1964-1978.png" media-type="image/png" />
+		<item id="Iran-1979.png" href="image/Iran-1979.png" media-type="image/png" />
+		<item id="Iran-1980-P.png" href="image/Iran-1980-P.png" media-type="image/png" />
+		<item id="Iraq-1945-1957.png" href="image/Iraq-1945-1957.png" media-type="image/png" />
+		<item id="Iraq-1958.png" href="image/Iraq-1958.png" media-type="image/png" />
+		<item id="Iraq-1959-1962.png" href="image/Iraq-1959-1962.png" media-type="image/png" />
+		<item id="Iraq-1991-2003.png" href="image/Iraq-1991-2003.png" media-type="image/png" />
+		<item id="Iraq-2004-2007.png" href="image/Iraq-2004-2007.png" media-type="image/png" />
+		<item id="Iraq-2008-P.png" href="image/Iraq-2008-P.png" media-type="image/png" />
+		<item id="Ireland-1955-P.png" href="image/Ireland-1955-P.png" media-type="image/png" />
+		<item id="Israel-1949-P.png" href="image/Israel-1949-P.png" media-type="image/png" />
+		<item id="iStock_000008613606_240.jpg" href="image/iStock_000008613606_240.jpg" media-type="image/jpeg" />
+		<item id="Italy-2003-2005.png" href="image/Italy-2003-2005.png" media-type="image/png" />
+		<item id="Italy-2006-P.png" href="image/Italy-2006-P.png" media-type="image/png" />
+		<item id="Italy-old.png" href="image/Italy-old.png" media-type="image/png" />
+		<item id="Jamaica-1962-P.png" href="image/Jamaica-1962-P.png" media-type="image/png" />
+		<item id="Japan-1956-P.png" href="image/Japan-1956-P.png" media-type="image/png" />
+		<item id="Jordan-1955-P.png" href="image/Jordan-1955-P.png" media-type="image/png" />
+		<item id="Kampuchea-1976-1978.png" href="image/Kampuchea-1976-1978.png" media-type="image/png" />
+		<item id="Kampuchea-1979-1988.png" href="image/Kampuchea-1979-1988.png" media-type="image/png" />
+		<item id="Kazakhstan-1992-P.png" href="image/Kazakhstan-1992-P.png" media-type="image/png" />
+		<item id="Kazakhstan-1992.png" href="image/Kazakhstan-1992.png" media-type="image/png" />
+		<item id="Kenya-1963-P.png" href="image/Kenya-1963-P.png" media-type="image/png" />
+		<item id="Khmer-Rep-1970-1974.png" href="image/Khmer-Rep-1970-1974.png" media-type="image/png" />
+		<item id="Kiribati-1999-P.png" href="image/Kiribati-1999-P.png" media-type="image/png" />
+		<item id="Kuwait-1963-P.png" href="image/Kuwait-1963-P.png" media-type="image/png" />
+		<item id="Kyrgyzstan-1992-P.png" href="image/Kyrgyzstan-1992-P.png" media-type="image/png" />
+		<item id="Lao-1975-P.png" href="image/Lao-1975-P.png" media-type="image/png" />
+		<item id="Laos-1955-1974.png" href="image/Laos-1955-1974.png" media-type="image/png" />
+		<item id="Latvia-1991-P.png" href="image/Latvia-1991-P.png" media-type="image/png" />
+		<item id="Lebanon-1945-P.png" href="image/Lebanon-1945-P.png" media-type="image/png" />
+		<item id="Lesotho-1966-2086.png" href="image/Lesotho-1966-2086.png" media-type="image/png" />
+		<item id="Lesotho-1987-2005.png" href="image/Lesotho-1987-2005.png" media-type="image/png" />
+		<item id="Lesotho-2006-P.png" href="image/Lesotho-2006-P.png" media-type="image/png" />
+		<item id="Liberia-1945-P.png" href="image/Liberia-1945-P.png" media-type="image/png" />
+		<item id="Libya-1955-1968.png" href="image/Libya-1955-1968.png" media-type="image/png" />
+		<item id="Libya-1969-1971.png" href="image/Libya-1969-1971.png" media-type="image/png" />
+		<item id="Libya-1972-1976.png" href="image/Libya-1972-1976.png" media-type="image/png" />
+		<item id="Libya-1977-2010.png" href="image/Libya-1977-2010.png" media-type="image/png" />
+		<item id="Libya-2011-P.png" href="image/Libya-2011-P.png" media-type="image/png" />
+		<item id="Liechtenstein-1990-P.png" href="image/Liechtenstein-1990-P.png" media-type="image/png" />
+		<item id="Lithuania-1991-P.png" href="image/Lithuania-1991-P.png" media-type="image/png" />
+		<item id="Luxembourg-1945-P.png" href="image/Luxembourg-1945-P.png" media-type="image/png" />
+		<item id="Macedonia-1992-1994.png" href="image/Macedonia-1992-1994.png" media-type="image/png" />
+		<item id="Macedonia-1995-P.png" href="image/Macedonia-1995-P.png" media-type="image/png" />
+		<item id="Madagascar-1960-P.png" href="image/Madagascar-1960-P.png" media-type="image/png" />
+		<item id="Malawi-1964-2009.png" href="image/Malawi-1964-2009.png" media-type="image/png" />
+		<item id="Malawi-2010-2011.png" href="image/Malawi-2010-2011.png" media-type="image/png" />
+		<item id="Malaysia-1963-P.png" href="image/Malaysia-1963-P.png" media-type="image/png" />
+		<item id="Malaysia-Fed-1957-1962.png" href="image/Malaysia-Fed-1957-1962.png" media-type="image/png" />
+		<item id="Maldives-1965-P.png" href="image/Maldives-1965-P.png" media-type="image/png" />
+		<item id="Mali-1960.png" href="image/Mali-1960.png" media-type="image/png" />
+		<item id="Mali-1961-P.png" href="image/Mali-1961-P.png" media-type="image/png" />
+		<item id="Malta-1964-P.png" href="image/Malta-1964-P.png" media-type="image/png" />
+		<item id="Marshall-Islands-1991-P.png" href="image/Marshall-Islands-1991-P.png" media-type="image/png" />
+		<item id="Mauritania-1961-2016.png" href="image/Mauritania-1961-2016.png" media-type="image/png" />
+		<item id="Mauritania-2017-P.png" href="image/Mauritania-2017-P.png" media-type="image/png" />
+		<item id="Mauritius-1968-P.png" href="image/Mauritius-1968-P.png" media-type="image/png" />
+		<item id="Mexico-1945-1967_qm.png" href="image/Mexico-1945-1967_qm.png" media-type="image/png" />
+		<item id="Mexico-1968-P.png" href="image/Mexico-1968-P.png" media-type="image/png" />
+		<item id="Micronesia-1991-P.png" href="image/Micronesia-1991-P.png" media-type="image/png" />
+		<item id="Monaco-1993-P.png" href="image/Monaco-1993-P.png" media-type="image/png" />
+		<item id="Mongolia-1961-1991.png" href="image/Mongolia-1961-1991.png" media-type="image/png" />
+		<item id="Mongolia-1992-P.png" href="image/Mongolia-1992-P.png" media-type="image/png" />
+		<item id="Montenegro-2006-P.png" href="image/Montenegro-2006-P.png" media-type="image/png" />
+		<item id="Morocco-1956-P.png" href="image/Morocco-1956-P.png" media-type="image/png" />
+		<item id="Mozambique-1975-1982.png" href="image/Mozambique-1975-1982.png" media-type="image/png" />
+		<item id="Mozambique-1983-P.png" href="image/Mozambique-1983-P.png" media-type="image/png" />
+		<item id="Myanmar-1988-2009.png" href="image/Myanmar-1988-2009.png" media-type="image/png" />
+		<item id="Myanmar-2010-P.png" href="image/Myanmar-2010-P.png" media-type="image/png" />
+		<item id="Namibia-1990-P.png" href="image/Namibia-1990-P.png" media-type="image/png" />
+		<item id="Nauru-1999-P.png" href="image/Nauru-1999-P.png" media-type="image/png" />
+		<item id="Nepal-1955-1961.png" href="image/Nepal-1955-1961.png" media-type="image/png" />
+		<item id="Nepal-1962-P.png" href="image/Nepal-1962-P.png" media-type="image/png" />
+		<item id="Netherlands-1945-P.png" href="image/Netherlands-1945-P.png" media-type="image/png" />
+		<item id="New-Zealand-1945-P.png" href="image/New-Zealand-1945-P.png" media-type="image/png" />
+		<item id="Nicaragua-1945-P.png" href="image/Nicaragua-1945-P.png" media-type="image/png" />
+		<item id="Niger-1960-P.png" href="image/Niger-1960-P.png" media-type="image/png" />
+		<item id="Nigeria-1960-P.png" href="image/Nigeria-1960-P.png" media-type="image/png" />
+		<item id="Norway-1945-P.png" href="image/Norway-1945-P.png" media-type="image/png" />
+		<item id="Oman-1971-1994.png" href="image/Oman-1971-1994.png" media-type="image/png" />
+		<item id="Oman-1995-P.png" href="image/Oman-1995-P.png" media-type="image/png" />
+		<item id="Pakistan-1947-P.png" href="image/Pakistan-1947-P.png" media-type="image/png" />
+		<item id="Palau-1994-P.png" href="image/Palau-1994-P.png" media-type="image/png" />
+		<item id="Palestine-2015-P.png" href="image/Palestine-2015-P.png" media-type="image/png" />
+		<item id="Panama-1945-P.png" href="image/Panama-1945-P.png" media-type="image/png" />
+		<item id="Papua-New-Guinea-1975-P.png" href="image/Papua-New-Guinea-1975-P.png" media-type="image/png" />
+		<item id="Paraguay-1945-1989.png" href="image/Paraguay-1945-1989.png" media-type="image/png" />
+		<item id="Paraguay-1990-2012.png" href="image/Paraguay-1990-2012.png" media-type="image/png" />
+		<item id="Paraguay-2013-P.png" href="image/Paraguay-2013-P.png" media-type="image/png" />
+		<item id="Peru-1945-1949.png" href="image/Peru-1945-1949.png" media-type="image/png" />
+		<item id="Peru-1950-P.png" href="image/Peru-1950-P.png" media-type="image/png" />
+		<item id="Philippines-1947-1984.png" href="image/Philippines-1947-1984.png" media-type="image/png" />
+		<item id="Philippines-1985.png" href="image/Philippines-1985.png" media-type="image/png" />
+		<item id="Philippines-1998-P.png" href="image/Philippines-1998-P.png" media-type="image/png" />
+		<item id="Poland-1945-P.png" href="image/Poland-1945-P.png" media-type="image/png" />
+		<item id="Portugal-1945-P.png" href="image/Portugal-1945-P.png" media-type="image/png" />
+		<item id="Qatar-1971-P.png" href="image/Qatar-1971-P.png" media-type="image/png" />
+		<item id="Rep-Korea-1991-2010.png" href="image/Rep-Korea-1991-2010.png" media-type="image/png" />
+		<item id="Rep-Korea-2011-P.png" href="image/Rep-Korea-2011-P.png" media-type="image/png" />
+		<item id="Rep-Moldova-1992-P.png" href="image/Rep-Moldova-1992-P.png" media-type="image/png" />
+		<item id="Rhodesia-1964-1968.png" href="image/Rhodesia-1964-1968.png" media-type="image/png" />
+		<item id="Romania-1965-1988.png" href="image/Romania-1965-1988.png" media-type="image/png" />
+		<item id="Romania-1989-P.png" href="image/Romania-1989-P.png" media-type="image/png" />
+		<item id="Russian-Fed-1992.png" href="image/Russian-Fed-1992.png" media-type="image/png" />
+		<item id="Russian-Fed-1993-P.png" href="image/Russian-Fed-1993-P.png" media-type="image/png" />
+		<item id="Rwanda-1962-2000.png" href="image/Rwanda-1962-2000.png" media-type="image/png" />
+		<item id="Rwanda-2001-P.png" href="image/Rwanda-2001-P.png" media-type="image/png" />
+		<item id="Samoa-1976-P.png" href="image/Samoa-1976-P.png" media-type="image/png" />
+		<item id="San-Marino-1992-2010.png" href="image/San-Marino-1992-2010.png" media-type="image/png" />
+		<item id="San-Marino-2011-P.png" href="image/San-Marino-2011-P.png" media-type="image/png" />
+		<item id="Sao-Tome-1975-P.png" href="image/Sao-Tome-1975-P.png" media-type="image/png" />
+		<item id="Saudi-Arabia-1945-1972.png" href="image/Saudi-Arabia-1945-1972.png" media-type="image/png" />
+		<item id="Saudi-Arabia-1973-P.png" href="image/Saudi-Arabia-1973-P.png" media-type="image/png" />
+		<item id="Senegal-1960-P.png" href="image/Senegal-1960-P.png" media-type="image/png" />
+		<item id="Serbia-2004-2009.png" href="image/Serbia-2004-2009.png" media-type="image/png" />
+		<item id="Serbia-2011-P.png" href="image/Serbia-2011-P.png" media-type="image/png" />
+		<item id="Serbia-and-Montenegro-1992-2005.png" href="image/Serbia-and-Montenegro-1992-2005.png" media-type="image/png" />
+		<item id="Seychelles-1976.png" href="image/Seychelles-1976.png" media-type="image/png" />
+		<item id="Seychelles-1977-1995.png" href="image/Seychelles-1977-1995.png" media-type="image/png" />
+		<item id="Seychelles-1996-P.png" href="image/Seychelles-1996-P.png" media-type="image/png" />
+		<item id="Sierra-Leone-1961-P.png" href="image/Sierra-Leone-1961-P.png" media-type="image/png" />
+		<item id="Singapore-1965-P.png" href="image/Singapore-1965-P.png" media-type="image/png" />
+		<item id="Slovakia-1993-P.png" href="image/Slovakia-1993-P.png" media-type="image/png" />
+		<item id="Slovenia-1992-P.png" href="image/Slovenia-1992-P.png" media-type="image/png" />
+		<item id="Solomon-Islands-1978-P.png" href="image/Solomon-Islands-1978-P.png" media-type="image/png" />
+		<item id="Somalia-1960-P.png" href="image/Somalia-1960-P.png" media-type="image/png" />
+		<item id="South-Africa-1982-1993.png" href="image/South-Africa-1982-1993.png" media-type="image/png" />
+		<item id="South-Africa-1994-P.png" href="image/South-Africa-1994-P.png" media-type="image/png" />
+		<item id="South-Sudan-2011-P.png" href="image/South-Sudan-2011-P.png" media-type="image/png" />
+		<item id="Spain-1955-1976.png" href="image/Spain-1955-1976.png" media-type="image/png" />
+		<item id="Spain-1977-1980.png" href="image/Spain-1977-1980.png" media-type="image/png" />
+		<item id="Spain-1981-P.png" href="image/Spain-1981-P.png" media-type="image/png" />
+		<item id="Sri-Lanka-1972-P.png" href="image/Sri-Lanka-1972-P.png" media-type="image/png" />
+		<item id="St-Kitts-and-Nevis-1986-P.png" href="image/St-Kitts-and-Nevis-1986-P.png" media-type="image/png" />
+		<item id="St-Lucua-1979-2001.png" href="image/St-Lucua-1979-2001.png" media-type="image/png" />
+		<item id="St-Lucua-2002-P.png" href="image/St-Lucua-2002-P.png" media-type="image/png" />
+		<item id="St-Vincent-1980-1984.png" href="image/St-Vincent-1980-1984.png" media-type="image/png" />
+		<item id="St-Vincent-1985-P.png" href="image/St-Vincent-1985-P.png" media-type="image/png" />
+		<item id="St-Vincent-1985.png" href="image/St-Vincent-1985.png" media-type="image/png" />
+		<item id="Sudan-1956-1969.png" href="image/Sudan-1956-1969.png" media-type="image/png" />
+		<item id="Sudan-1970-P.png" href="image/Sudan-1970-P.png" media-type="image/png" />
+		<item id="Suriname-1975-P.png" href="image/Suriname-1975-P.png" media-type="image/png" />
+		<item id="Sweden-1946-P.png" href="image/Sweden-1946-P.png" media-type="image/png" />
+		<item id="Switzerland-2002-P.png" href="image/Switzerland-2002-P.png" media-type="image/png" />
+		<item id="Syria-1958-1960.png" href="image/Syria-1958-1960.png" media-type="image/png" />
+		<item id="Syria-1961-1962.png" href="image/Syria-1961-1962.png" media-type="image/png" />
+		<item id="Syria-1963-1971.png" href="image/Syria-1963-1971.png" media-type="image/png" />
+		<item id="Taiwan-1945-1970.png" href="image/Taiwan-1945-1970.png" media-type="image/png" />
+		<item id="Tajikistan-1992-P.png" href="image/Tajikistan-1992-P.png" media-type="image/png" />
+		<item id="Tajikistan-1992.png" href="image/Tajikistan-1992.png" media-type="image/png" />
+		<item id="Tanganyika-1961-1963.png" href="image/Tanganyika-1961-1963.png" media-type="image/png" />
+		<item id="Tanzania-1964-P.png" href="image/Tanzania-1964-P.png" media-type="image/png" />
+		<item id="Thailand-1946-2016.png" href="image/Thailand-1946-2016.png" media-type="image/png" />
+		<item id="Thailand-2017-P.png" href="image/Thailand-2017-P.png" media-type="image/png" />
+		<item id="Timor-Leste-2002-P.png" href="image/Timor-Leste-2002-P.png" media-type="image/png" />
+		<item id="Togo-1960-P.png" href="image/Togo-1960-P.png" media-type="image/png" />
+		<item id="Tonga-1999-P.png" href="image/Tonga-1999-P.png" media-type="image/png" />
+		<item id="Trinidad-1962-P.png" href="image/Trinidad-1962-P.png" media-type="image/png" />
+		<item id="Tunisia-1956-1998-P.png" href="image/Tunisia-1956-1998-P.png" media-type="image/png" />
+		<item id="Tunisia-1999-P.png" href="image/Tunisia-1999-P.png" media-type="image/png" />
+		<item id="Turkey-1945-P.png" href="image/Turkey-1945-P.png" media-type="image/png" />
+		<item id="Turkmenistan-1992-1996.png" href="image/Turkmenistan-1992-1996.png" media-type="image/png" />
+		<item id="Turkmenistan-1997-2000.png" href="image/Turkmenistan-1997-2000.png" media-type="image/png" />
+		<item id="Turkmenistan-2001-P.png" href="image/Turkmenistan-2001-P.png" media-type="image/png" />
+		<item id="Tuvalu-2000-P.png" href="image/Tuvalu-2000-P.png" media-type="image/png" />
+		<item id="UAE-1971-P.png" href="image/UAE-1971-P.png" media-type="image/png" />
+		<item id="UAR-1958-1971.png" href="image/UAR-1958-1971.png" media-type="image/png" />
+		<item id="Uganda-1962-P.png" href="image/Uganda-1962-P.png" media-type="image/png" />
+		<item id="UK-1945-P.png" href="image/UK-1945-P.png" media-type="image/png" />
+		<item id="Ukraine-1944-1948.png" href="image/Ukraine-1944-1948.png" media-type="image/png" />
+		<item id="Ukraine-1949-1990.png" href="image/Ukraine-1949-1990.png" media-type="image/png" />
+		<item id="Ukraine-1991-P.png" href="image/Ukraine-1991-P.png" media-type="image/png" />
+		<item id="UN_Symbol.png" href="image/UN_Symbol.png" media-type="image/png" />
+		<item id="UN-1945.png" href="image/UN-1945.png" media-type="image/png" />
+		<item id="UN-1946-P.png" href="image/UN-1946-P.png" media-type="image/png" />
+		<item id="Union-of-Soviets-1945-1954.png" href="image/Union-of-Soviets-1945-1954.png" media-type="image/png" />
+		<item id="Union-of-Soviets-1955-1979.png" href="image/Union-of-Soviets-1955-1979.png" media-type="image/png" />
+		<item id="Union-of-Soviets-1980-1991.png" href="image/Union-of-Soviets-1980-1991.png" media-type="image/png" />
+		<item id="Upper-Volta-1960-1983.png" href="image/Upper-Volta-1960-1983.png" media-type="image/png" />
+		<item id="Uruguay-1945-P.png" href="image/Uruguay-1945-P.png" media-type="image/png" />
+		<item id="USA-1945-1958.png" href="image/USA-1945-1958.png" media-type="image/png" />
+		<item id="USA-1959.png" href="image/USA-1959.png" media-type="image/png" />
+		<item id="USA-1960-P.png" href="image/USA-1960-P.png" media-type="image/png" />
+		<item id="Uzbekistan-1992-P.png" href="image/Uzbekistan-1992-P.png" media-type="image/png" />
+		<item id="Vanuatu-1981-P.png" href="image/Vanuatu-1981-P.png" media-type="image/png" />
+		<item id="Vatican-2015-P.png" href="image/Vatican-2015-P.png" media-type="image/png" />
+		<item id="Venezuela-1945-2005.png" href="image/Venezuela-1945-2005.png" media-type="image/png" />
+		<item id="Venezuela-2006-P.png" href="image/Venezuela-2006-P.png" media-type="image/png" />
+		<item id="Viet-Nam-1977-P.png" href="image/Viet-Nam-1977-P.png" media-type="image/png" />
+		<item id="Yemen-1947-1961.png" href="image/Yemen-1947-1961.png" media-type="image/png" />
+		<item id="Yemen-1962-1989.png" href="image/Yemen-1962-1989.png" media-type="image/png" />
+		<item id="Yemen-1990-P.png" href="image/Yemen-1990-P.png" media-type="image/png" />
+		<item id="Yugoslavia-1945-1991.png" href="image/Yugoslavia-1945-1991.png" media-type="image/png" />
+		<item id="Zaire-1966-1970.png" href="image/Zaire-1966-1970.png" media-type="image/png" />
+		<item id="Zaire-1971-1996.png" href="image/Zaire-1971-1996.png" media-type="image/png" />
+		<item id="Zambia-1964-1995.png" href="image/Zambia-1964-1995.png" media-type="image/png" />
+		<item id="Zambia-1996-P.png" href="image/Zambia-1996-P.png" media-type="image/png" />
+		<item id="Zanzibar_1963.png" href="image/Zanzibar_1963.png" media-type="image/png" />
+		<item id="Zimbabwe-1980-P.png" href="image/Zimbabwe-1980-P.png" media-type="image/png" />
+	</manifest>
+	<spine>
+		<itemref idref="UN-Flags-1945-1958-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-18" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-19" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-20" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-21" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-22" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-23" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-24" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1945-1958-25" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1945-1958-26" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-18" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-19" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-20" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-21" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-22" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1959-1970-23" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1959-1970-24" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-18" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-19" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-20" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-21" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-22" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1971-1983-23" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1971-1983-24" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-18" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-19" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-20" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-21" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-22" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1984-1994-23" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1984-1994-24" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-18" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-19" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-20" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-21" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-22" properties="page-spread-right" />
+		<itemref idref="UN-Flags-1995-2008-23" properties="page-spread-left" />
+		<itemref idref="UN-Flags-1995-2008-24" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-1" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-2" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-3" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-4" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-5" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-6" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-7" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-8" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-9" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-10" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-11" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-12" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-13" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-14" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-15" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-16" properties="page-spread-right" />
+		<itemref idref="UN-Flags-2009-2019-17" properties="page-spread-left" />
+		<itemref idref="UN-Flags-2009-2019-18" properties="page-spread-right" />
+	</spine>
+</package>

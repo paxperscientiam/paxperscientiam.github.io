@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Chronology of United Nations members' flags.</title>
-
+        <script src="dist/jquery-2.1.4.min.js"></script>
+        <script src="dist/jquery.detect_swipe.min.js"></script>
         <script src="dist/jszip.min.js"></script>
         <script src="dist/epub.js"></script>
 
@@ -23,14 +24,15 @@
           var url = params && params.get("url") && decodeURIComponent(params.get("url"));
           var currentSectionIndex = (params && params.get("loc")) ? params.get("loc") : undefined;
 
-          var book = ePub("UN-Flags-Book-1.epub", {});
+          var book = ePub(url || "UN-Flags-Book-5.epub", {});
           var rendition = book.renderTo("viewer", {
-              width: "100%",
+              // width: "200px",
               height: "100%",
-              flow: "paginated",
               spread: "always"
           });
           rendition.display(currentSectionIndex);
+
+
           book.ready.then(() => {
 
               var next = document.getElementById("next");
@@ -62,28 +64,26 @@
 
               rendition.on("keyup", keyListener);
               document.addEventListener("keyup", keyListener, false);
-
           })
 
-          rendition.on("relocated", function(location){
-              console.log(location);
-
-              var next = book.package.metadata.direction === "rtl" ?  document.getElementById("prev") : document.getElementById("next");
-              var prev = book.package.metadata.direction === "rtl" ?  document.getElementById("next") : document.getElementById("prev");
-
-              if (location.atEnd) {
-                  next.style.visibility = "hidden";
-              } else {
-                  next.style.visibility = "visible";
-              }
-
-              if (location.atStart) {
-                  prev.style.visibility = "hidden";
-              } else {
-                  prev.style.visibility = "visible";
-              }
-
-          });
+          // rendition.on("relocated", function(location){
+          //
+          //     var next = book.package.metadata.direction === "rtl" ?  document.getElementById("prev") : document.getElementById("next");
+          //     var prev = book.package.metadata.direction === "rtl" ?  document.getElementById("next") : document.getElementById("prev");
+          //
+          //     if (location.atEnd) {
+          //         next.style.visibility = "hidden";
+          //     } else {
+          //         next.style.visibility = "visible";
+          //     }
+          //
+          //     if (location.atStart) {
+          //         prev.style.visibility = "hidden";
+          //     } else {
+          //         prev.style.visibility = "visible";
+          //     }
+          //
+          // });
 
           rendition.on("layout", function(layout) {
               let viewer = document.getElementById("viewer");
@@ -98,6 +98,18 @@
           window.addEventListener("unload", function () {
               console.log("unloading");
               this.book.destroy();
+          });
+
+          window.addEventListener("swipeleft", function( event ) {
+              console.log("SHIT!");
+          });
+
+          $(window).on( "swipeleft", function( event ) {
+              rendition.next();
+          });
+
+          $(window).on( "swiperight", function( event ) {
+              rendition.prev();
           });
 
           // book.loaded.navigation.then(function(toc){
