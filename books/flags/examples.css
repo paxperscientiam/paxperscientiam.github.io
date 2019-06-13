@@ -149,8 +149,8 @@ body {
 }
 
 #book-wrapper {
-/*     width: 480px; */
-/*     height: 640px */;
+    width: 480px;
+    height: 640px;
     overflow: hidden;
     border: 1px solid #ccc;
     margin: 28px auto;
