@@ -163,8 +163,10 @@ body {
     /*     width: calc(777px/2) !important; */
 }
 #book-viewer {
-    width: 777px;
-    height: 660px;
+    /* this is the real thing */
+    width: 792px;
+    height: 1224px;
+
     margin: -30px auto;
     -moz-box-shadow:      inset 10px 0 20px rgba(0,0,0,.1);
     -webkit-box-shadow:   inset 10px 0 20px rgba(0,0,0,.1);
