@@ -7,27 +7,26 @@
         <title>Chronology of United Nations members' flags.</title>
 
 
-        <link rel="stylesheet" type="text/css" href="examples.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
         <link rel="stylesheet" href="dist/css/foundation.css">
     </head>
-    <body class="grid-container">
-
+    <body class="grid-x">
         <!-- <select id="toc"></select> -->
-        <div class="grid-x">
-            <div id="title" class="cell medium-12">Chronology of United Nations members' flags.</div>
+        <div class="cell">
+            <div id="title" class="">Chronology of United Nations members' flags.</div>
         </div>
-        <div class="grid-x aspect-ratio-box">
-            <div id="viewer" class="spreads cell large-24"></div>
+        <div id="viewer" class="spreads paper">
         </div>
         <a id="prev" href="#prev" class="arrow">‹</a>
         <a id="next" href="#next" class="arrow">›</a>
+
 
         <!-- <script src="dist/vendor/jquery.js"></script>
              <script src="dist/vendor/what-input.js"></script> -->
         <!-- <script src="dist/vendor/foundation.js"></script>
              <script src="dist/js/app.js"></script> -->
         <script src="dist/js/jszip.min.js"></script>
-        <script src="dist/js/epub.js"></script>
+        <script src="dist/js/epub.min.js"></script>
         <script defer>
           var params = URLSearchParams && new URLSearchParams(document.location.search.substring(1));
           var url = params && params.get("url") && decodeURIComponent(params.get("url"));
@@ -43,56 +42,66 @@
 
 
           book.ready.then(() => {
-
+              var viewer = document.getElementById("viewer");
+              var frames = document.body.getElementsByTagName("iframe");
               var next = document.getElementById("next");
 
               next.addEventListener("click", function(e){
                   book.package.metadata.direction === "rtl" ? rendition.prev() : rendition.next();
+                  //                  viewer.style.background = "white url('ajax-loader.gif') center center no-repeat";
                   e.preventDefault();
               }, false);
 
               var prev = document.getElementById("prev");
+
               prev.addEventListener("click", function(e){
+                  console.log("previous page");
+                  frames[0].style.visibility = "hidden";
                   book.package.metadata.direction === "rtl" ? rendition.next() : rendition.prev();
                   e.preventDefault();
               }, false);
 
               var keyListener = function(e){
-
                   // Left Key
                   if ((e.keyCode || e.which) == 37) {
+                      //                      frames[0].style.visibility = "hidden";
                       book.package.metadata.direction === "rtl" ? rendition.next() : rendition.prev();
                   }
 
                   // Right Key
                   if ((e.keyCode || e.which) == 39) {
-                      book.package.metadata.direction === "rtl" ? rendition.prev() : rendition.next();
+                      book.package.metadata.direction === "rtl" ?
+                      rendition.prev() : rendition.next();
                   }
 
               };
 
               rendition.on("keyup", keyListener);
               document.addEventListener("keyup", keyListener, false);
-          })
 
-          // rendition.on("relocated", function(location){
-          //
-          //     var next = book.package.metadata.direction === "rtl" ?  document.getElementById("prev") : document.getElementById("next");
-          //     var prev = book.package.metadata.direction === "rtl" ?  document.getElementById("next") : document.getElementById("prev");
-          //
-          //     if (location.atEnd) {
-          //         next.style.visibility = "hidden";
-          //     } else {
-          //         next.style.visibility = "visible";
-          //     }
-          //
-          //     if (location.atStart) {
-          //         prev.style.visibility = "hidden";
-          //     } else {
-          //         prev.style.visibility = "visible";
-          //     }
-          //
-          // });
+              rendition.on("displayed", function () {
+                  console.log("displayed");
+
+              });
+
+              rendition.on("next", function () {
+                  console.log("FUCKIN NEX");
+              })
+
+              rendition.on("started", function () {
+                  console.log("started");
+              });
+
+              rendition.on("removed", function () {
+                  console.log("removed");
+              });
+
+              rendition.on("rendered", function () {
+                  frames[0].classList.add("page-turning");
+                  console.log("rendered");
+              });
+
+          })
 
           rendition.on("layout", function(layout) {
               let viewer = document.getElementById("viewer");
@@ -104,14 +113,19 @@
               }
           });
 
+          window.addEventListener("load", function () {
+              console.log("loading");
+              viewer.classList.add("paper");
+          });
+
           window.addEventListener("unload", function () {
               console.log("unloading");
               this.book.destroy();
           });
 
-          window.addEventListener("swipeleft", function( event ) {
-              console.log("SHIT!");
-          });
+          // window.addEventListener("swipeleft", function( event ) {
+          //     console.log("SHIT!");
+          // });
 
           // $(window).on( "swipeleft", function( event ) {
           //     rendition.next();
