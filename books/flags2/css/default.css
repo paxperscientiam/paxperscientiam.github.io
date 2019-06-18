@@ -1,0 +1,12 @@
+#bb-bookblock {
+    height: 100%;
+}
+
+/* .bb-bookblock img { */
+/*     height: 100%; */
+/* } */
+
+
+.bb-item, .bb-item a, .bb-item img {
+    height: 100%;
+}

@@ -7,18 +7,25 @@
         <title>Chronology of United Nations members' flags.</title>
 
 
-        <link rel="stylesheet" type="text/css" href="app.css">
         <link rel="stylesheet" href="dist/css/foundation.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
     </head>
-    <body class="grid-x">
+    <body class="grid-y grid-frame">
         <!-- <select id="toc"></select> -->
-        <div class="cell">
+        <div class="cell shrink header">
             <div id="title" class="">Chronology of United Nations members' flags.</div>
         </div>
-        <div id="viewer" class="spreads paper">
+        <div id="content" class="cell auto">
+            <div id="" class="spreads grid-x align-center">
+                <div id="viewer" class="cell"></div>
+                <!-- <div class="cell small-6"></div> -->
+            </div>
         </div>
+
         <a id="prev" href="#prev" class="arrow">‹</a>
         <a id="next" href="#next" class="arrow">›</a>
+
+        <div id="footer" class="cell shrink footer"></div>
 
 
         <!-- <script src="dist/vendor/jquery.js"></script>
@@ -32,10 +39,10 @@
           var url = params && params.get("url") && decodeURIComponent(params.get("url"));
           var currentSectionIndex = (params && params.get("loc")) ? params.get("loc") : undefined;
 
-          var book = ePub(url || "UN-Flags-Single-Page-1.epub", {});
+          var book = ePub(url || "UN-Flags-Book-1page.epub", {});
           var rendition = book.renderTo("viewer", {
-              width: "100%",
-              height: "100%",
+              width: 1500,
+              height: 1224,
               spread: "always"
           });
           rendition.display(currentSectionIndex);
@@ -48,7 +55,6 @@
 
               next.addEventListener("click", function(e){
                   book.package.metadata.direction === "rtl" ? rendition.prev() : rendition.next();
-                  //                  viewer.style.background = "white url('ajax-loader.gif') center center no-repeat";
                   e.preventDefault();
               }, false);
 
