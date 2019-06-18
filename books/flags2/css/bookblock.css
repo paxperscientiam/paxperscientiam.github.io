@@ -1,7 +1,7 @@
 .bb-bookblock {
-    width: 842px;
-    height: 595px;
-    margin: 0 auto;
+    width: calc(842vh / 10);
+    height: calc(595vh/ 10);
+    margin: 0;
     position: relative;
     z-index: 100;
     -webkit-perspective: 1400px;
@@ -45,6 +45,10 @@
 	  left: 0;
 	  -webkit-backface-visibility: hidden;
 	  backface-visibility: hidden;
+}
+
+.bb-inner img {
+    height: 100% !important;
 }
 
 .bb-vertical .bb-content {
