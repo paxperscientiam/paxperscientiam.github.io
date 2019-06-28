@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata":  true,
+        "experimentalDecorators": true,
+        "importHelpers":          true,
+        "inlineSources":          true,
+        "jsx":                    "react",
+        "module":                 "commonjs",
+        "moduleResolution":       "node",
+        "sourceMap":              true,
+        "target":                 "esnext",
+        "skipLibCheck":           true,
+        "types" : ["BookBlock", "node", "jQuery", "Modernizr"],
+        "typeRoots": [
+            "src/@types",
+            "node_modules/@types"
+        ]
+    },
+    "files": [
+        "src/index.ts"
+    ],
+    "outDir": "dist"
+}
