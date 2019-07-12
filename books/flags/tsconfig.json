@@ -15,7 +15,8 @@
         "types" : ["BookBlock", "node", "jQuery", "Modernizr"],
         "typeRoots": [
             "src/@types",
-            "node_modules/@types"
+            "node_modules/@types",
+            "node_modules/@paxperscientiam/bookblock/src/@types"
         ]
     },
     "files": [

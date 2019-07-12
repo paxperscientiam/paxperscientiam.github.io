@@ -20,12 +20,6 @@ function importJSON(filePath: string, property?: string) {
 }
 
 const PKG = importJSON("./package.json")
-const FB = importJSON("./package.json", "fuse-box")
-
-let APP_NAME = dlv(FB, "bundle.app.name") || "app"
-if (process.env.NODE_ENV === "production") {
-    APP_NAME+=".min"
-}
 
 const Autoprefixer = require("autoprefixer")
 const Cssnano = require("cssnano")
@@ -45,18 +39,21 @@ function testSync() {
 
 import {
     CSSPlugin,
-    CSSModulesPlugin,
+    ConsolidatePlugin,
     CSSResourcePlugin,
     FuseBox,
     PostCSSPlugin,
     QuantumPlugin,
     SassPlugin,
+    TerserPlugin,
     WebIndexPlugin,
 } from "fuse-box"
 
 import {
+    bumpVersion,
     context as ctx,
     exec,
+    npmPublish,
     src,
     task,
 } from "fuse-box/sparky"
@@ -67,6 +64,9 @@ class CTX {
 
     getConfig() {
         return FuseBox.init({
+            // will hashing help with AppCache?
+            // @ts-ignore
+            hash: this.isProduction,
             shim: {
                 modernizr: {
                     exports: "Modernizr",
@@ -92,6 +92,11 @@ class CTX {
 
             //            globals: {default : "*"},
             plugins: [
+                 // ConsolidatePlugin({
+                 //     engine: "hbs",
+                 //     baseDir: "src",
+                 //     includeDir: "src/hbs",
+                 // }),
                 WebIndexPlugin({
                     cssPath: "css",
                     template: "src/index.html",
@@ -112,6 +117,11 @@ class CTX {
                     }),
                     CSSPlugin({inject: true}),
                 ],
+                this.isProduction && TerserPlugin({
+                    compress: {
+                        drop_console: true,
+                    },
+                }),
                 this.isProduction && QuantumPlugin({
                     css: {
                         clean: true,
@@ -121,6 +131,7 @@ class CTX {
                         "default/app**": "css/app.min.css",
                         "default/bookblock**": "css/bookblock.min.css",
                     },
+
                     bakeApiIntoBundle: "bookblock",
                     // containedAPI: true,
                     treeshake: true,
@@ -170,7 +181,7 @@ task("copy:images", async () => {
 })
 
 task("copy", [
-//    "&copy:js", // parallel task mode
+    "&copy:js", // parallel task mode
     "&copy:images", // parallel task mode
 ])
 
@@ -202,7 +213,7 @@ task("build", ["test:ts"], async (context: CTX) => {
     await exec("default")
 })
 
-task("default", ["clean", "copy:images"], async (context: CTX) => {
+task("default", ["clean", "copy", "test:ts"], async (context: CTX) => {
     const fuse = context.getConfig()
     if (!context.isProduction) {
         fuse.dev()
@@ -231,11 +242,12 @@ task("test:ts", [], (context: CTX) => {
         console.log("PRODUCTION TEST")
         testSync().runSync()
     } else {
+        console.log("dev testing")
         testSync().runWatch("./src")
     }
 })
 
-task("serve", [], async (context: CTX) => {
+task("serve", [], async () => {
     const fuse = FuseBox.init({
         output: "dist",
     })
@@ -243,4 +255,19 @@ task("serve", [], async (context: CTX) => {
         root: "dist",
     })
     await fuse.run()
+})
+
+task("publish:patch", async () => {
+    await bumpVersion("package.json", { type: "patch" })
+    await npmPublish({ path: "." })
+})
+
+task("publish:minor", async () => {
+    await bumpVersion("package.json", { type: "minor" })
+    await npmPublish({ path: "." })
+})
+
+task("publish:major", async () => {
+    await bumpVersion("package.json", { type: "major" })
+    await npmPublish({ path: "." })
 })

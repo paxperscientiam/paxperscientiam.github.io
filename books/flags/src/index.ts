@@ -8,6 +8,6 @@ declare global  {
 
 import "./scss/index.scss"
 
-import "@paxperscientiam/bookblock"
+import {BookBlock} from "@paxperscientiam/bookblock"
 
-// console.log(bookBlock)
+console.log(BookBlock)
