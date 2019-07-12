@@ -100,6 +100,7 @@ class CTX {
                 WebIndexPlugin({
                     cssPath: "css",
                     template: "src/index.html",
+                    path: ".",
                 }),
                 [
                     SassPlugin({
