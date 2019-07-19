@@ -5,6 +5,7 @@ devDependencies:
   '@types/autoprefixer': 9.5.0
   '@types/cssnano': 4.0.0
   '@types/jquery': 3.3.30
+  '@types/modernizr': 3.5.3
   '@types/node': 12.6.2
   autoprefixer: 9.6.1
   cssnano: 4.1.10
@@ -53,6 +54,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-chB+QbLulamShZAFcTJtl8opZwHFBpDOP6nRLrPGkhC6N1aKWrDXg2Nc71tEg6ny6E8SQpRwbWSi9GdstH5VJA==
+  /@types/modernizr/3.5.3:
+    dev: true
+    resolution:
+      integrity: sha512-jhMOZSS0UGYTS9pqvt6q3wtT3uvOSve5piTEmTMx3zzTuBLvSIMxSIBIc3d5lajVD5h4xc41AMZD2M5orN3PxA==
   /@types/node/11.13.17:
     dev: true
     resolution:
@@ -6850,6 +6855,7 @@ specifiers:
   '@types/autoprefixer': ^9.5.0
   '@types/cssnano': ^4.0.0
   '@types/jquery': ^3.3.30
+  '@types/modernizr': ^3.5.3
   '@types/node': ^12.6.2
   autoprefixer: ^9.6.1
   cssnano: ^4.1.10

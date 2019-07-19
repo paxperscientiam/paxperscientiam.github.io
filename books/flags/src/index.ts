@@ -8,6 +8,4 @@ declare global  {
 
 import "./scss/index.scss"
 
-import {BookBlock} from "@paxperscientiam/bookblock"
-
-console.log(BookBlock)
+import "@paxperscientiam/bookblock"
