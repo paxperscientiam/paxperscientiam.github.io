@@ -10644,7 +10644,7 @@ require("fuse-box-css")("@paxperscientiam/bookblock/src/scss/app/index.scss", "*
 ___scope___.file("src/scss/bookblock/index.scss", function(exports, require, module, __filename, __dirname){
 
 
-require("fuse-box-css")("@paxperscientiam/bookblock/src/scss/bookblock/index.scss", "/*!\r\n  Important comments included in optimized output.\r\n*/@font-face{font-family:arrows;src:url(\"data:application/vnd.ms-fontobject;charset=utf-8;base64,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\");src:url(\"data:application/vnd.ms-fontobject;charset=utf-8;base64,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\") format(\"embedded-opentype\"),url(\"data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAASMAAsAAAAABmgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAAWgAAAGpwLpPskZGVE0AAAJwAAAAGgAAABxn0g/QR0RFRgAAAowAAAAdAAAAIAAxAARPUy8yAAACrAAAAEsAAABgMY/d7mNtYXAAAAL4AAAAPQAAAVLgF/LMaGVhZAAAAzgAAAAvAAAANv0zrr1oaGVhAAADaAAAAB4AAAAkBRz/5WhtdHgAAAOIAAAAEAAAABAHgAFEbWF4cAAAA5gAAAAGAAAABgAEUABuYW1lAAADoAAAAN0AAAF6DL0wDHBvc3QAAASAAAAADAAAACAAAwAAeJw1Tk0oBGEYfr8100xrGn8zjEyzJSmXbTKyDi7abJFy5SRuVn5aSVESyc+XE+vmQA6OiuOeJEmclHJBuShSamtnFY/v2+XyPu/7Pu/zPC8jRSHGmDaayUzPzxKLEKPu0IuEsYrQUbhRwQ3Fi5I9NsL5PxoanyhaYV51abXKJap2aavGJd1lB7WkSgedqqieXGqemxrv9f32MgQCUr7vl7P+EonYOttgm6RIYYSexTeVJtiGswsWb3m0OUhPLwFfRj9QuDz+L9kVsbMWeAxoCAJg8vpcBT6uToF8Lg18vq0JZc+m0NszRzpY01O3VhoOQaa1KMi+HKgmMVASiAP/rAvUOFRtg1yRSHUyopDcA16yyzH83D84mui3B4F3+VEhmZXUyl+RO9JzE0KdOfHA2lpfNem0XHYSVLpk7Jmgi84U2F3QYYMl9uPAwM0Nfq6GHdndqiYP88q3VbQ0s2hZ3N4xor/0/LT2eJxjYGBgZACCM7aLzoPos6fMGmA0AE0zBxYAAHicY2BkYGDgA2IJBhBgYmAEQmYgZgHzGAAEawA2AAAAeJxjYGZqYJzAwMrAwbiA8QADA0MkhGY0ZpBnWMrAwMTAyswABwIIJkNAmmsKg8MDpg8MTAn/HzBYMSUwKDQANcIVKAAhIwBvQwyDAHicY2BgYGaAYBkGRgYQ8AHyGMF8FgYDIM0BhEwgiQfMHxj+/wezmCAs+f8CzFBdYMDIxoDMHZEAAN/nCbEAAAB4nGNgZGBgAOLtUTns8fw2Xxm4mRqAIgxnT5kh0f8fMDUwJQC5HAxMIFEAM4kLGgB4nGNgZGBgSvj/gMGKqYGB4W8DkASKoAAWAIA2BQMAAAKAAAACgACAAoAAxAAAAAAAAFAAAAQAAHicbY4xasNAEEWfbFnG2KRL6iWQUkLaYDCugw/gwr2KRRiMFtY2volPkC7HyAFygtwlX6stUniHYR6zf+YPsOJOxvAyCp4ST5jzlnjKK+fEuTSfiWcs+U5cKH6lzPKFOqs4NfBEG58TT/mgTJxH35FnvPCVuFD/h5ag8NzkSxuCv6nucXRcOcVv9q67nlrBTsKeS6xBCofBUlGrbpX/l40dy0aHrJVWqoZ3LfH9ZedD54ytarM1o6nAbsp1aetGmodXHeQX1DjGK4y2Dc4cXDgffW+aqn48+AcC4zbfAAAAeJxjYGbACwAAfQAE\") format(\"woff\"),url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAANAIAAAwBQRkZUTWfSD9AAAAWgAAAAHEdERUYAMwAGAAAFgAAAACBPUy8yMW3dzQAAAVgAAABWY21hcOAZ89MAAAHIAAABUmdhc3D//wADAAAFeAAAAAhnbHlmZj5ZrgAAAywAAACIaGVhZP0zrr0AAADcAAAANmhoZWEFHP/nAAABFAAAACRobXR4CFUBRAAAAbAAAAAYbG9jYQBsADYAAAMcAAAADm1heHAASgAaAAABOAAAACBuYW1lDL0wDAAAA7QAAAF6cG9zdN3f5/QAAAUwAAAARgABAAAAAQAABSNsql8PPPUACwKAAAAAAM3KNoAAAAAAzco2gAAA/+ACgAJgAAAACAACAAAAAAAAAAEAAAJg/+AAOgKAAAD9gAKAAAEAAAAAAAAAAAAAAAAAAAAGAAEAAAAGABcAAgAAAAAAAgAAAAEAAQAAAEAAAAAAAAAAAQKAAZAABQAIAaABwAAAAFkBoAHAAAABMwAfAKUAAAIABQMAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUGZFZABA4ALwAAJg/+AAOgJgACCAAAABAAAAAAAAAoAAAAAAAAAA1QAAAoAAgAKAAMQAAAAAAAAAAwAAAAMAAAAcAAEAAAAAAEwAAwABAAAAHAAEADAAAAAIAAgAAgAAAADgA/AA//8AAAAA4ALwAP//AAAgARAFAAEAAAAAAAAAAAAAAQYAAAEAAAAAAAAAAQIAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgANgBEAAAAAgCAAGYCAAHaAA4AFgAAAScmBhURFBY/ATY1NCYnNiIVERQyNREBiOkNEhIN6QkFAnZgYAEukgkLEP7kEAsJkgYIBAcBriX+1iUlASoAAAABAMQAbAH8AdQAAgAAExElxAE4AdP+mrMAAAAAAQAA/+ACgAJgAAIAABEBIQKA/YACYP2AAAAAAAAADACWAAEAAAAAAAEABgAOAAEAAAAAAAIABwAlAAEAAAAAAAMAIgBzAAEAAAAAAAQABgCkAAEAAAAAAAUACwDDAAEAAAAAAAYABgDdAAMAAQQJAAEADAAAAAMAAQQJAAIADgAVAAMAAQQJAAMARAAtAAMAAQQJAAQADACWAAMAAQQJAAUAFgCrAAMAAQQJAAYADADPAGEAcgByAG8AdwBzAABhcnJvd3MAAFIAZQBnAHUAbABhAHIAAFJlZ3VsYXIAAEYAbwBuAHQARgBvAHIAZwBlACAAMgAuADAAIAA6ACAAYQByAHIAbwB3AHMAIAA6ACAAMgA4AC0ANQAtADIAMAAxADMAAEZvbnRGb3JnZSAyLjAgOiBhcnJvd3MgOiAyOC01LTIwMTMAAGEAcgByAG8AdwBzAABhcnJvd3MAAFYAZQByAHMAaQBvAG4AIAAxAC4AMAAAVmVyc2lvbiAxLjAAAGEAcgByAG8AdwBzAABhcnJvd3MAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAQACAQIBAwEEB3VuaUUwMDIHdW5pRTAwMwd1bmlGMDAwAAAAAAAB//8AAgABAAAADgAAABgAAAAAAAIAAQADAAUAAQAEAAAAAgAAAAAAAQAAAADMPaLPAAAAAM3KNoAAAAAAzco2gA==\") format(\"truetype\"),url(\"data:image/svg+xml;charset=utf8,%3C?xml version='1.0' standalone='no'?%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' %3E %3Csvg xmlns='http://www.w3.org/2000/svg'%3E %3Cmetadata%3E This is a custom SVG font generated by IcoMoon. %3Ciconset grid='20'%3E%3C/iconset%3E %3C/metadata%3E %3Cdefs%3E %3Cfont id='arrows' horiz-adv-x='640' %3E %3Cfont-face units-per-em='640' ascent='608' descent='-32' /%3E %3Cmissing-glyph horiz-adv-x='640' /%3E %3Cglyph unicode='&%23xe002;' d='M 392.096,302.144l-232.8,146.24C 142.080,459.648, 128,451.36, 128,429.92l0-283.872 c0-21.44, 14.080-29.696, 31.296-18.432l 232.8,146.208 c0,0, 8.416,5.92, 8.416,14.144S 392.096,302.144, 392.096,302.144z M 464,473.728c-28.416,0-48-8.736-48-37.152l0-297.152 c0-28.448, 19.584-37.184, 48-37.184s 48,8.736, 48,37.184L 512,436.576 C 512,464.992, 492.416,473.728, 464,473.728z' /%3E %3Cglyph unicode='&%23xe003;' d='M 196.212,467.2L 196.174,108.8L 507.826,288 z' /%3E %3Cglyph unicode='&%23x20;' horiz-adv-x='320' /%3E %3Cglyph class='hidden' unicode='&%23xf000;' d='M0,608L 640 -32L0 -32 z' horiz-adv-x='0' /%3E %3C/font%3E%3C/defs%3E%3C/svg%3E\") format(\"svg\");font-weight:400;font-style:normal}body{margin:0;overflow:hidden}.bb-bookblock{margin:0 auto;position:relative;z-index:100;perspective:1300px;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-bookblock:after{content:\"\";position:absolute;border-right:1px solid rgba(0,0,0,.05);height:100%;width:100%;transform:translateX(-50%)}.bb-bookblock.bb-dropshadow-effect{-webkit-filter:drop-shadow(0 1.5em .5em #7d7d7d);filter:drop-shadow(0 1.5em .5em #7d7d7d)}.bb-page{position:absolute;transform-style:preserve-3d;transition-property:transform}.bb-page>div{transform-style:preserve-3d}.bb-content,.bb-page>div{position:absolute;height:100%;width:100%;top:0;left:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-content{background:#fff}.bb-front{transform-style:preserve-3d;-webkit-filter:none;filter:none}.bb-horizontal .bb-page{width:100%;height:50%;top:50%;transform-origin:center top}.bb-horizontal .bb-back{transform:rotateX(-180deg)}.bb-horizontal .bb-front .bb-content{top:-100%}.bb-horizontal .bb-flip-initial,.bb-horizontal .bb-flip-next{transform:rotateX(180deg)}.bb-horizontal .bb-flip-prev{transform:rotateX(0deg)}.bb-horizontal .bb-flip-next-end{transform:rotateX(15deg)}.bb-horizontal .bb-flip-prev-end{transform:rotateX(165deg)}.bb-vertical .bb-front .bb-content{left:-100%}.bb-vertical .bb-page{width:50%;height:100%;left:50%;transform-origin:left center}.bb-vertical .bb-back,.bb-vertical .bb-flip-initial,.bb-vertical .bb-flip-next{transform:rotateY(-180deg)}.bb-vertical .bb-flip-prev{transform:rotateY(0deg)}.bb-vertical .bb-flip-next-end{transform:rotateY(-15deg)}.bb-vertical .bb-flip-prev-end{transform:rotateY(-165deg)}.bb-outer{overflow:hidden;z-index:999}.bb-inner,.bb-outer{position:absolute;height:100%;width:100%;top:0;left:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-flipoverlay,.bb-overlay{background-color:rgba(0,0,0,.7);position:absolute;top:0;left:0;width:100%;height:100%;opacity:0}.bb-bookblock.bb-horizontal>div.bb-page:first-child,.bb-bookblock.bb-horizontal>div.bb-page:first-child .bb-back{transform:rotateX(180deg)}.bb-bookblock.bb-vertical>div.bb-page:first-child,.bb-bookblock.bb-vertical>div.bb-page:first-child .bb-back{transform:rotateY(180deg)}.bb-item{position:absolute;top:0;left:0;display:none;background:#fca}.bb-item,.bb-item img{width:100%;height:100%}.bb-bookblock img{opacity:0;transition:opacity 0s linear 0s,opacity .4s}.bb-bookblock img.fadeIn{opacity:1}.bb-nav-container{width:100%;height:30px;margin:1em auto 0;position:relative;z-index:0;text-align:center}.bb-nav-container a{display:inline-block;width:30px;height:30px;text-align:center;border-radius:2px;background:#72b890;color:#fff;font-size:0;margin:2px}.bb-nav-container a:hover{opacity:.6}.bb-icon:before{display:block;font-family:arrows,sans-serif;font-size:20px;font-style:normal;font-variant:normal;font-weight:400;line-height:1;speak:none;text-transform:none}.bb-icon-first:before,.bb-icon-last:before{content:\"\\e002\"}.bb-icon-arrow-left:before,.bb-icon-arrow-right:before{content:\"\\e003\"}.bb-icon-arrow-left:before,.bb-icon-first:before{transform:rotate(180deg)}.bb-paper-effect{background:#fff;box-shadow:0 .063em .063em rgba(0,0,0,.15),0 .65em 0 -.313em #d5d5d5,0 .625em .063em -.25em rgba(0,0,0,.15),0 1.25em 0 -.625em #c8c8c8,0 1.25em .063em -.563em rgba(0,0,0,.15)}.brighten-10{-webkit-filter:brightness(110%);filter:brightness(110%)}.brighten-20{-webkit-filter:brightness(120%);filter:brightness(120%)}.brighten-40{-webkit-filter:brightness(140%);filter:brightness(140%)}.brighten-100{-webkit-filter:brightness(200%);filter:brightness(200%)}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes pulse{50%{background:#fff}}@keyframes pulse{50%{background:#fff}}.bb-loading{left:calc(50% - 1.5rem);top:calc(50% - 1.5rem);position:relative;border-radius:50%;width:3rem;height:3rem;border:.25rem solid hsla(0,0%,100%,.2);border-top-color:#fff;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite;z-index:10000}.bb-loading.bb-not-loading{display:none}.bb-loading-pulse{position:relative;top:50%;left:50%;width:6px;height:24px;background:hsla(0,0%,100%,.2);-webkit-animation:pulse .75s infinite;animation:pulse .75s infinite;-webkit-animation-delay:.25s;animation-delay:.25s;z-index:10000}.bb-loading-pulse:after,.bb-loading-pulse:before{content:\"\";position:absolute;display:block;height:16px;width:6px;background:hsla(0,0%,100%,.2);top:50%;transform:translateY(-50%);-webkit-animation:pulse .75s infinite;animation:pulse .75s infinite}.bb-loading-pulse:before{left:-12px}.bb-loading-pulse:after{left:12px;-webkit-animation-delay:.5s;animation-delay:.5s}.bb-loading-pulse.bb-not-loading{display:none}.no-js .bb-bookblock,.no-js ul.bb-custom-grid li{width:auto;height:auto}.no-js .bb-item{display:block;position:relative}.bright{-webkit-filter:brightness(0);filter:brightness(0)}")
+require("fuse-box-css")("@paxperscientiam/bookblock/src/scss/bookblock/index.scss", "/*!\r\n  Important comments included in optimized output.\r\n*/@font-face{font-family:arrows;src:url(\"data:application/vnd.ms-fontobject;charset=utf-8;base64,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\");src:url(\"data:application/vnd.ms-fontobject;charset=utf-8;base64,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\") format(\"embedded-opentype\"),url(\"data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAASMAAsAAAAABmgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAAWgAAAGpwLpPskZGVE0AAAJwAAAAGgAAABxn0g/QR0RFRgAAAowAAAAdAAAAIAAxAARPUy8yAAACrAAAAEsAAABgMY/d7mNtYXAAAAL4AAAAPQAAAVLgF/LMaGVhZAAAAzgAAAAvAAAANv0zrr1oaGVhAAADaAAAAB4AAAAkBRz/5WhtdHgAAAOIAAAAEAAAABAHgAFEbWF4cAAAA5gAAAAGAAAABgAEUABuYW1lAAADoAAAAN0AAAF6DL0wDHBvc3QAAASAAAAADAAAACAAAwAAeJw1Tk0oBGEYfr8100xrGn8zjEyzJSmXbTKyDi7abJFy5SRuVn5aSVESyc+XE+vmQA6OiuOeJEmclHJBuShSamtnFY/v2+XyPu/7Pu/zPC8jRSHGmDaayUzPzxKLEKPu0IuEsYrQUbhRwQ3Fi5I9NsL5PxoanyhaYV51abXKJap2aavGJd1lB7WkSgedqqieXGqemxrv9f32MgQCUr7vl7P+EonYOttgm6RIYYSexTeVJtiGswsWb3m0OUhPLwFfRj9QuDz+L9kVsbMWeAxoCAJg8vpcBT6uToF8Lg18vq0JZc+m0NszRzpY01O3VhoOQaa1KMi+HKgmMVASiAP/rAvUOFRtg1yRSHUyopDcA16yyzH83D84mui3B4F3+VEhmZXUyl+RO9JzE0KdOfHA2lpfNem0XHYSVLpk7Jmgi84U2F3QYYMl9uPAwM0Nfq6GHdndqiYP88q3VbQ0s2hZ3N4xor/0/LT2eJxjYGBgZACCM7aLzoPos6fMGmA0AE0zBxYAAHicY2BkYGDgA2IJBhBgYmAEQmYgZgHzGAAEawA2AAAAeJxjYGZqYJzAwMrAwbiA8QADA0MkhGY0ZpBnWMrAwMTAyswABwIIJkNAmmsKg8MDpg8MTAn/HzBYMSUwKDQANcIVKAAhIwBvQwyDAHicY2BgYGaAYBkGRgYQ8AHyGMF8FgYDIM0BhEwgiQfMHxj+/wezmCAs+f8CzFBdYMDIxoDMHZEAAN/nCbEAAAB4nGNgZGBgAOLtUTns8fw2Xxm4mRqAIgxnT5kh0f8fMDUwJQC5HAxMIFEAM4kLGgB4nGNgZGBgSvj/gMGKqYGB4W8DkASKoAAWAIA2BQMAAAKAAAACgACAAoAAxAAAAAAAAFAAAAQAAHicbY4xasNAEEWfbFnG2KRL6iWQUkLaYDCugw/gwr2KRRiMFtY2volPkC7HyAFygtwlX6stUniHYR6zf+YPsOJOxvAyCp4ST5jzlnjKK+fEuTSfiWcs+U5cKH6lzPKFOqs4NfBEG58TT/mgTJxH35FnvPCVuFD/h5ag8NzkSxuCv6nucXRcOcVv9q67nlrBTsKeS6xBCofBUlGrbpX/l40dy0aHrJVWqoZ3LfH9ZedD54ytarM1o6nAbsp1aetGmodXHeQX1DjGK4y2Dc4cXDgffW+aqn48+AcC4zbfAAAAeJxjYGbACwAAfQAE\") format(\"woff\"),url(\"data:application/x-font-ttf;charset=utf-8;base64,AAEAAAANAIAAAwBQRkZUTWfSD9AAAAWgAAAAHEdERUYAMwAGAAAFgAAAACBPUy8yMW3dzQAAAVgAAABWY21hcOAZ89MAAAHIAAABUmdhc3D//wADAAAFeAAAAAhnbHlmZj5ZrgAAAywAAACIaGVhZP0zrr0AAADcAAAANmhoZWEFHP/nAAABFAAAACRobXR4CFUBRAAAAbAAAAAYbG9jYQBsADYAAAMcAAAADm1heHAASgAaAAABOAAAACBuYW1lDL0wDAAAA7QAAAF6cG9zdN3f5/QAAAUwAAAARgABAAAAAQAABSNsql8PPPUACwKAAAAAAM3KNoAAAAAAzco2gAAA/+ACgAJgAAAACAACAAAAAAAAAAEAAAJg/+AAOgKAAAD9gAKAAAEAAAAAAAAAAAAAAAAAAAAGAAEAAAAGABcAAgAAAAAAAgAAAAEAAQAAAEAAAAAAAAAAAQKAAZAABQAIAaABwAAAAFkBoAHAAAABMwAfAKUAAAIABQMAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUGZFZABA4ALwAAJg/+AAOgJgACCAAAABAAAAAAAAAoAAAAAAAAAA1QAAAoAAgAKAAMQAAAAAAAAAAwAAAAMAAAAcAAEAAAAAAEwAAwABAAAAHAAEADAAAAAIAAgAAgAAAADgA/AA//8AAAAA4ALwAP//AAAgARAFAAEAAAAAAAAAAAAAAQYAAAEAAAAAAAAAAQIAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgANgBEAAAAAgCAAGYCAAHaAA4AFgAAAScmBhURFBY/ATY1NCYnNiIVERQyNREBiOkNEhIN6QkFAnZgYAEukgkLEP7kEAsJkgYIBAcBriX+1iUlASoAAAABAMQAbAH8AdQAAgAAExElxAE4AdP+mrMAAAAAAQAA/+ACgAJgAAIAABEBIQKA/YACYP2AAAAAAAAADACWAAEAAAAAAAEABgAOAAEAAAAAAAIABwAlAAEAAAAAAAMAIgBzAAEAAAAAAAQABgCkAAEAAAAAAAUACwDDAAEAAAAAAAYABgDdAAMAAQQJAAEADAAAAAMAAQQJAAIADgAVAAMAAQQJAAMARAAtAAMAAQQJAAQADACWAAMAAQQJAAUAFgCrAAMAAQQJAAYADADPAGEAcgByAG8AdwBzAABhcnJvd3MAAFIAZQBnAHUAbABhAHIAAFJlZ3VsYXIAAEYAbwBuAHQARgBvAHIAZwBlACAAMgAuADAAIAA6ACAAYQByAHIAbwB3AHMAIAA6ACAAMgA4AC0ANQAtADIAMAAxADMAAEZvbnRGb3JnZSAyLjAgOiBhcnJvd3MgOiAyOC01LTIwMTMAAGEAcgByAG8AdwBzAABhcnJvd3MAAFYAZQByAHMAaQBvAG4AIAAxAC4AMAAAVmVyc2lvbiAxLjAAAGEAcgByAG8AdwBzAABhcnJvd3MAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAQACAQIBAwEEB3VuaUUwMDIHdW5pRTAwMwd1bmlGMDAwAAAAAAAB//8AAgABAAAADgAAABgAAAAAAAIAAQADAAUAAQAEAAAAAgAAAAAAAQAAAADMPaLPAAAAAM3KNoAAAAAAzco2gA==\") format(\"truetype\"),url(\"data:image/svg+xml;charset=utf8,%3C?xml version='1.0' standalone='no'?%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' %3E %3Csvg xmlns='http://www.w3.org/2000/svg'%3E %3Cmetadata%3E This is a custom SVG font generated by IcoMoon. %3Ciconset grid='20'%3E%3C/iconset%3E %3C/metadata%3E %3Cdefs%3E %3Cfont id='arrows' horiz-adv-x='640' %3E %3Cfont-face units-per-em='640' ascent='608' descent='-32' /%3E %3Cmissing-glyph horiz-adv-x='640' /%3E %3Cglyph unicode='&%23xe002;' d='M 392.096,302.144l-232.8,146.24C 142.080,459.648, 128,451.36, 128,429.92l0-283.872 c0-21.44, 14.080-29.696, 31.296-18.432l 232.8,146.208 c0,0, 8.416,5.92, 8.416,14.144S 392.096,302.144, 392.096,302.144z M 464,473.728c-28.416,0-48-8.736-48-37.152l0-297.152 c0-28.448, 19.584-37.184, 48-37.184s 48,8.736, 48,37.184L 512,436.576 C 512,464.992, 492.416,473.728, 464,473.728z' /%3E %3Cglyph unicode='&%23xe003;' d='M 196.212,467.2L 196.174,108.8L 507.826,288 z' /%3E %3Cglyph unicode='&%23x20;' horiz-adv-x='320' /%3E %3Cglyph class='hidden' unicode='&%23xf000;' d='M0,608L 640 -32L0 -32 z' horiz-adv-x='0' /%3E %3C/font%3E%3C/defs%3E%3C/svg%3E\") format(\"svg\");font-weight:400;font-style:normal}body{margin:0;overflow:hidden}.bb-bookblock{margin:0 auto;position:relative;z-index:100;perspective:1300px;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-bookblock:after{content:\"\";position:absolute;border-right:1px solid rgba(0,0,0,.05);height:100%;width:100%;transform:translateX(-50%)}.bb-bookblock.bb-dropshadow-effect{-webkit-filter:drop-shadow(0 1.5em .5em #7d7d7d);filter:drop-shadow(0 1.5em .5em #7d7d7d)}.bb-page{position:absolute;transform-style:preserve-3d;transition-property:transform}.bb-page>div{transform-style:preserve-3d}.bb-content,.bb-page>div{position:absolute;height:100%;width:100%;top:0;left:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-content{background:#fff}.bb-front{transform-style:preserve-3d;-webkit-filter:none;filter:none}.bb-horizontal .bb-page{width:100%;height:50%;top:50%;transform-origin:center top}.bb-horizontal .bb-back{transform:rotateX(-180deg)}.bb-horizontal .bb-front .bb-content{top:-100%}.bb-horizontal .bb-flip-initial,.bb-horizontal .bb-flip-next{transform:rotateX(180deg)}.bb-horizontal .bb-flip-prev{transform:rotateX(0deg)}.bb-horizontal .bb-flip-next-end{transform:rotateX(15deg)}.bb-horizontal .bb-flip-prev-end{transform:rotateX(165deg)}.bb-vertical .bb-front .bb-content{left:-100%}.bb-vertical .bb-page{width:50%;height:100%;left:50%;transform-origin:left center}.bb-vertical .bb-back,.bb-vertical .bb-flip-initial,.bb-vertical .bb-flip-next{transform:rotateY(-180deg)}.bb-vertical .bb-flip-prev{transform:rotateY(0deg)}.bb-vertical .bb-flip-next-end{transform:rotateY(-15deg)}.bb-vertical .bb-flip-prev-end{transform:rotateY(-165deg)}.bb-outer{overflow:hidden;z-index:999}.bb-inner,.bb-outer{position:absolute;height:100%;width:100%;top:0;left:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.bb-flipoverlay,.bb-overlay{background-color:rgba(0,0,0,.7);position:absolute;top:0;left:0;width:100%;height:100%;opacity:0}.bb-bookblock.bb-horizontal>div.bb-page:first-child,.bb-bookblock.bb-horizontal>div.bb-page:first-child .bb-back{transform:rotateX(180deg)}.bb-bookblock.bb-vertical>div.bb-page:first-child,.bb-bookblock.bb-vertical>div.bb-page:first-child .bb-back{transform:rotateY(180deg)}.bb-item{position:absolute;top:0;left:0;display:none;background:#fca}.bb-item,.bb-item img{width:100%;height:100%}.bb-bookblock img{opacity:0;transition:opacity 0s linear 0s,opacity .4s}.bb-bookblock img.bb-fadeIn{opacity:1}.bb-nav-container{width:100%;height:30px;margin:1em auto 0;position:relative;z-index:0;text-align:center}.bb-nav-container a{display:inline-block;width:30px;height:30px;text-align:center;border-radius:2px;background:#72b890;color:#fff;font-size:0;margin:2px}.bb-nav-container a:hover{opacity:.6}.bb-icon:before{display:block;font-family:arrows,sans-serif;font-size:20px;font-style:normal;font-variant:normal;font-weight:400;line-height:1;speak:none;text-transform:none}.bb-icon-first:before,.bb-icon-last:before{content:\"\\e002\"}.bb-icon-arrow-left:before,.bb-icon-arrow-right:before{content:\"\\e003\"}.bb-icon-arrow-left:before,.bb-icon-first:before{transform:rotate(180deg)}.bb-paper-effect{background:#fff;box-shadow:0 .063em .063em rgba(0,0,0,.15),0 .65em 0 -.313em #d5d5d5,0 .625em .063em -.25em rgba(0,0,0,.15),0 1.25em 0 -.625em #c8c8c8,0 1.25em .063em -.563em rgba(0,0,0,.15)}.brighten-10{-webkit-filter:brightness(110%);filter:brightness(110%)}.brighten-20{-webkit-filter:brightness(120%);filter:brightness(120%)}.brighten-40{-webkit-filter:brightness(140%);filter:brightness(140%)}.brighten-100{-webkit-filter:brightness(200%);filter:brightness(200%)}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes pulse{50%{background:#fff}}@keyframes pulse{50%{background:#fff}}.bb-loading{left:calc(50% - 1.5rem);top:calc(50% - 1.5rem);position:relative;border-radius:50%;width:3rem;height:3rem;border:.25rem solid hsla(0,0%,100%,.2);border-top-color:#fff;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite;z-index:10000}.bb-loading.bb-not-loading{display:none}.bb-loading-pulse{position:relative;top:50%;left:50%;width:6px;height:24px;background:hsla(0,0%,100%,.2);-webkit-animation:pulse .75s infinite;animation:pulse .75s infinite;-webkit-animation-delay:.25s;animation-delay:.25s;z-index:10000}.bb-loading-pulse:after,.bb-loading-pulse:before{content:\"\";position:absolute;display:block;height:16px;width:6px;background:hsla(0,0%,100%,.2);top:50%;transform:translateY(-50%);-webkit-animation:pulse .75s infinite;animation:pulse .75s infinite}.bb-loading-pulse:before{left:-12px}.bb-loading-pulse:after{left:12px;-webkit-animation-delay:.5s;animation-delay:.5s}.bb-loading-pulse.bb-not-loading{display:none}.no-js .bb-bookblock,.no-js ul.bb-custom-grid li{width:auto;height:auto}.no-js .bb-item{display:block;position:relative}.bright{-webkit-filter:brightness(0);filter:brightness(0)}")
 });
 ___scope___.file("src/ts/jquery.bookblock.js", function(exports, require, module, __filename, __dirname){
 
@@ -10666,6 +10666,7 @@ var tslib_1 = require("tslib");
  */
 // global
 var $window = $(window);
+var constants_1 = require("./constants");
 var utils_1 = require("./utils");
 // https://gist.github.com/edankwan/4389601
 Modernizr.addTest("csstransformspreserve3d", function () {
@@ -10732,11 +10733,11 @@ var BookBlock = /** @class */ (function () {
         // orientation class
         this.$el.addClass("bb-" + this.options.orientation);
         // items
-        this.$items = this.$el.children(".bb-item").hide();
+        this.$items = this.$el.children(constants_1.CssClasses._ITEM).hide();
         // total items
         this.itemsCount = this.$items.length;
-        if ($("#bb-bookblock").data().bbsrcset != null) {
-            this.itemsCount = $("#bb-bookblock").data().bbsrcset.length;
+        if (this.$el.data().bbsrcset != null) {
+            this.itemsCount = this.$el.data().bbsrcset.length;
         }
         console.log("startpage is " + this.options.startPage + "_1");
         // current item´s index
@@ -10750,7 +10751,17 @@ var BookBlock = /** @class */ (function () {
         // previous item´s index
         this.previous = -1;
         // show first item
-        this.$current = this.$items.eq(this.current).show();
+        this.startIndex = this.current;
+        if (this.options.history) {
+            var initialQSPageValue = utils_1.BookBlockUtil.getQueryField("page");
+            var initialQSPageNumberValue = Number.parseInt(initialQSPageValue, 10);
+            if (Number.isInteger(initialQSPageNumberValue)) {
+                this.startIndex = utils_1.BookBlockUtil.mod(initialQSPageNumberValue - 1, this.itemsCount);
+                // i think this is correct
+                console.log("this.startIndex from construct is " + this.startIndex);
+            }
+        }
+        this.$current = this.$items.eq(this.startIndex).show();
         // get width of this.$el
         // this will be necessary to create the flipping layout
         this.elWidth = this.$el.width();
@@ -10774,38 +10785,31 @@ var BookBlock = /** @class */ (function () {
     }
     BookBlock.prototype._initEvents = function () {
         var _this = this;
-        var l = this._getQueryField("page");
-        console.log("query page is " + l);
         console.log("initialized");
         var self = this;
         var subIndex = self.current; // self.options.startPage - 1
         this.modulatedNextIndex = utils_1.BookBlockUtil.mod(subIndex, this.itemsCount);
-        self._addQueryField("page", (this.modulatedNextIndex).toString());
         if (this.options.nextEl !== "") {
             $(this.options.nextEl).on("click.bookblock touchstart.bookblock", function () {
                 console.log("next button clicked");
-                self._action("next");
+                self._action(constants_1.NEXT);
                 return false;
             });
         }
         if (this.options.prevEl !== "") {
             $(this.options.prevEl).on("click.bookblock touchstart.bookblock", function () {
                 console.log("prev button clicked");
-                self._action("prev");
+                self._action(constants_1.PREV);
                 return false;
             });
         }
-        //         $("#bb-bookblock").hover(
-        //             () => {
-        //                 console.log("hovering yo")
-        // //                $(this).addClass("brighten-20")
-        //             }, () => {
-        //   //              $(this).removeClass("brighten-20")
-        //             },
-        //         )
-        $("#bb-bookblock").on("click.bookblock touchstart.bookblock", function (e) {
+        this.$el.hover(function () {
+            console.log("hovering yo");
+        }, function () {
+            //              $(this).removeClass("brighten-20")
+        });
+        this.$el.on("click.bookblock touchstart.bookblock", function (e) {
             e.preventDefault();
-            console.log("touched the book");
             if (_this.isAnimating === false || typeof _this.isAnimating === "undefined") {
                 console.log("is animating: " + _this.isAnimating);
                 var left = $(e.currentTarget).offset().left;
@@ -10813,18 +10817,18 @@ var BookBlock = /** @class */ (function () {
                 var midX = (width / 2) + left;
                 if (e.touches) {
                     if (e.touches[0].screenX < midX) {
-                        self._action("prev");
+                        self._action(constants_1.PREV);
                     }
                     else {
-                        self._action("next");
+                        self._action(constants_1.NEXT);
                     }
                 }
                 else {
                     if (e.offsetX < width / 2) {
-                        self._action("prev");
+                        self._action(constants_1.PREV);
                     }
                     else {
-                        self._action("next");
+                        self._action(constants_1.NEXT);
                     }
                 }
             }
@@ -10843,12 +10847,12 @@ var BookBlock = /** @class */ (function () {
                 if ([UP, RIGHT].indexOf(keyCode) > -1) {
                     e.stopPropagation();
                     e.preventDefault();
-                    self._action("next");
+                    self._action(constants_1.NEXT);
                 }
                 if ([DOWN, LEFT].indexOf(keyCode) > -1) {
                     e.stopPropagation();
                     e.preventDefault();
-                    self._action("prev");
+                    self._action(constants_1.PREV);
                 }
             }
         });
@@ -10859,7 +10863,9 @@ var BookBlock = /** @class */ (function () {
         console.log("this current is " + this.current + "_0");
         shit._createPage(dir, this.current)
             .then(function () {
-            shit._addQueryField("page", (_this.modulatedNextIndex).toString());
+            if (shit.options.history) {
+                utils_1.BookBlockUtil.addQueryField("page", (_this.modulatedNextIndex + 1).toString());
+            }
             shit._stopSlideshow();
             shit._navigate(dir, page);
         });
@@ -10876,7 +10882,7 @@ var BookBlock = /** @class */ (function () {
         if (page !== undefined) {
             this.current = page;
         }
-        else if (dir === "next" && this.options.direction === "ltr" || dir === "prev" && this.options.direction === "rtl") {
+        else if (dir && this.options.ltr || !dir && !this.options.ltr) {
             if (!this.options.circular && this.current === this.itemsCount - 1) {
                 this.end = true;
             }
@@ -10885,7 +10891,7 @@ var BookBlock = /** @class */ (function () {
                 this.current = this.current < this.itemsCount - 1 ? this.current + 1 : 0;
             }
         }
-        else if (dir === "prev" && this.options.direction === "ltr" || dir === "next" && this.options.direction === "rtl") {
+        else if (!dir && this.options.ltr || dir && !this.options.ltr) {
             if (!this.options.circular && this.current === 0) {
                 this.end = true;
             }
@@ -10907,7 +10913,7 @@ var BookBlock = /** @class */ (function () {
         this.$nextItem.show();
         this.end = false;
         this.isAnimating = false;
-        var isLimit = dir === "next" && this.current === this.itemsCount - 1 || dir === "prev" && this.current === 0;
+        var isLimit = true && this.current === this.itemsCount - 1 || !dir && this.current === 0;
         // callback trigger
         this.options.onEndFlip(this.previous, this.current, isLimit);
     };
@@ -10924,8 +10930,7 @@ var BookBlock = /** @class */ (function () {
         var $oLeft = $sLeft.find("div.bb-overlay");
         var $oMiddleF = $sMiddle.find("div.bb-flipoverlay:first");
         var $oMiddleB = $sMiddle.find("div.bb-flipoverlay:last");
-        var $oRight = $sRight.find("div.bb-overlay");
-        $oRight.addClass("bright");
+        var $oRight = $sRight.find(constants_1.CssClasses._OVERLAY);
         var speed = this.end ? 400 : this.options.speed;
         this.$items.hide();
         this.$el.prepend($sLeft, $sMiddle, $sRight);
@@ -10933,40 +10938,40 @@ var BookBlock = /** @class */ (function () {
             transitionDuration: speed + "ms",
             transitionTimingFunction: this.options.easing,
         }).on(this.transEndEventName, function (event) {
-            if ($(event.target).hasClass("bb-page")) {
-                self.$el.children(".bb-page").remove();
+            if ($(event.target).hasClass(constants_1.CssClasses.PAGE)) {
+                self.$el.children(constants_1.CssClasses._PAGE).remove();
                 self.$nextItem.show();
                 self.end = false;
                 self.isAnimating = false;
-                var isLimit = dir === "next" && self.current === self.itemsCount - 1 || dir === "prev" && self.current === 0;
+                var isLimit = true && self.current === self.itemsCount - 1 || !dir && self.current === 0;
                 // callback trigger
                 self.options.onEndFlip(self.previous, self.current, isLimit);
             }
         });
-        if (dir === "prev") {
-            $sMiddle.addClass("bb-flip-initial");
+        if (!dir) {
+            $sMiddle.addClass(constants_1.CssClasses.FLIP_INITIAL);
         }
         // overlays
         if (this.options.shadows && !this.end) {
-            var oLeftStyle = (dir === "next") ? {
+            var oLeftStyle = (dir) ? {
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear" + " " + this.options.speed / 2 + "ms",
             } : {
                 opacity: this.options.shadowSides,
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear",
             };
-            var oMiddleFStyle = (dir === "next") ? {
+            var oMiddleFStyle = (dir) ? {
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear",
             } : {
                 opacity: this.options.shadowFlip,
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear" + " " + this.options.speed / 2 + "ms",
             };
-            var oMiddleBStyle = (dir === "next") ? {
+            var oMiddleBStyle = (dir) ? {
                 opacity: this.options.shadowFlip,
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear" + " " + this.options.speed / 2 + "ms",
             } : {
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear",
             };
-            var oRightStyle = (dir === "next") ? {
+            var oRightStyle = (dir) ? {
                 opacity: this.options.shadowSides,
                 transition: "opacity " + this.options.speed / 2 + "ms " + "linear",
             } : {
@@ -10978,21 +10983,22 @@ var BookBlock = /** @class */ (function () {
             $oRight.css(oRightStyle);
         }
         setTimeout(function () {
+            var classprefx = dir ? "next" : "prev";
             // first && last pages lift slightly up when we can"t go further
-            $sMiddle.addClass(self.end ? "bb-flip-" + dir + "-end" : "bb-flip-" + dir);
+            $sMiddle.addClass(self.end ? "bb-flip-" + classprefx + "-end" : "bb-flip-" + classprefx);
             // overlays
             if (self.options.shadows && !self.end) {
                 $oMiddleF.css({
-                    opacity: dir === "next" ? self.options.shadowFlip : 0,
+                    opacity: true ? self.options.shadowFlip : 0,
                 });
                 $oMiddleB.css({
-                    opacity: dir === "next" ? 0 : self.options.shadowFlip,
+                    opacity: true ? 0 : self.options.shadowFlip,
                 });
                 $oLeft.css({
-                    opacity: dir === "next" ? self.options.shadowSides : 0,
+                    opacity: true ? self.options.shadowSides : 0,
                 });
                 $oRight.css({
-                    opacity: dir === "next" ? 0 : self.options.shadowSides,
+                    opacity: true ? 0 : self.options.shadowSides,
                 });
             }
         }, 25);
@@ -11000,37 +11006,30 @@ var BookBlock = /** @class */ (function () {
     // adds the necessary sides (bb-page) to the layout
     BookBlock.prototype._addSide = function (side, dir) {
         var $side;
+        var html;
         switch (side) {
             case "left":
-                /*
-                  <div class="bb-page" style="z-index:102">
-                  <div class="bb-back">
-                  <div class="bb-outer">
-                  <div class="bb-content">
-                  <div class="bb-inner">
-                  dir==="next" ? [content of current page] : [content of next page]
-                  </div>
-                  </div>
-                  <div class="bb-overlay"></div>
-                  </div>
-                  </div>
-                  </div>
-                */
-                $side = $("<div class=\"bb-page\"><div class=\"bb-back\"><div class=\"bb-outer\"><div class=\"bb-content\"><div class=\"bb-inner\">" + (dir === "next" ? this.$current.html() : this.$nextItem.html()) + "</div></div><div class=\"bb-overlay\"></div></div></div></div>").css("z-index", 102);
+                html = (dir ? this.$current.html() : this.$nextItem.html());
+                $side = $("<div/>").addClass(constants_1.CssClasses.PAGE)
+                    .append($("<div/>").addClass(constants_1.CssClasses.BACK)
+                    .append($("<div/>").addClass(constants_1.CssClasses.OUTER)
+                    .append($("<div/>").addClass(constants_1.CssClasses.CONTENT)
+                    .append($("<div/>").addClass(constants_1.CssClasses.INNER).append(html)))
+                    .append($("<div/>").addClass(constants_1.CssClasses.OVERLAY)))).css("z-index", 102);
                 break;
             case "middle":
-                $side = $("<div class=\"bb-page\"><div class=\"bb-front\"><div class=\"bb-outer\"><div class=\"bb-content\"><div class=\"bb-inner\">"
-                    + (dir === "next" ? this.$current.html() : this.$nextItem.html())
-                    + "</div></div><div class=\"bb-flipoverlay\"></div></div></div><div class=\"bb-back\"><div class=\"bb-outer\"><div class=\"bb-content\" style=\"width:"
-                    + this.elWidth
-                    + "px\"><div class=\"bb-inner\">"
-                    + (dir === "next" ? this.$nextItem.html() : this.$current.html())
-                    + "</div></div><div class=\"bb-flipoverlay\"></div></div></div></div>").css("z-index", 103);
+                html = (dir ? this.$current.html() : this.$nextItem.html());
+                var html2 = (dir ? this.$nextItem.html() : this.$current.html());
+                $side = $("<div class=\"bb-page\"><div class=\"bb-front\"><div class=\"bb-outer\"><div class=\"bb-content\"><div class=\"bb-inner\">" + html + "</div></div><div class=\"bb-flipoverlay\"></div></div></div><div class=\"bb-back\"><div class=\"bb-outer\"><div class=\"bb-content\" style=\"width:" + this.elWidth + "px\"><div class=\"bb-inner\">" + html2 + "</div></div><div class=\"bb-flipoverlay\"></div></div></div></div>").css("z-index", 103);
                 break;
             case "right":
-                $side = $("<div class=\"bb-page\"><div class=\"bb-front\"><div class=\"bb-outer\"><div class=\"bb-content\"><div class=\"bb-inner\">"
-                    + (dir === "next" ? this.$nextItem.html() : this.$current.html())
-                    + "</div></div><div class=\"bb-overlay\"></div></div></div></div>").css("z-index", 101);
+                html = (dir ? this.$nextItem.html() : this.$current.html());
+                $side = $("<div/>").addClass(constants_1.CssClasses.PAGE)
+                    .append($("<div/>").addClass(constants_1.CssClasses.FRONT)
+                    .append($("<div/>").addClass(constants_1.CssClasses.OUTER)
+                    .append($("<div/>").addClass(constants_1.CssClasses.CONTENT)
+                    .append($("<div/>").addClass(constants_1.CssClasses.INNER).append(html)))
+                    .append($("<div/>").addClass(constants_1.CssClasses.OVERLAY)))).css("z-index", 101);
                 break;
         }
         return $side;
@@ -11038,30 +11037,11 @@ var BookBlock = /** @class */ (function () {
     BookBlock.prototype._startSlideshow = function () {
         var self = this;
         this.slideshow = setTimeout(function () {
-            self._navigate("next");
+            self._navigate(constants_1.NEXT);
             if (self.options.autoplay) {
                 self._startSlideshow();
             }
         }, this.options.interval);
-    };
-    BookBlock.prototype._addQueryField = function (key, value) {
-        var url = new window.URL(window.location.href);
-        if (url.searchParams.has(key)) {
-            url.searchParams.set(key, value);
-        }
-        else {
-            url.searchParams.append(key, value);
-        }
-        history.pushState({
-            id: "something",
-        }, "", url.href);
-    };
-    BookBlock.prototype._getQueryField = function (key) {
-        var url = new window.URL(window.location.href);
-        if (url.searchParams.has(key)) {
-            return url.searchParams.get(key);
-        }
-        return null;
     };
     BookBlock.prototype._stopSlideshow = function () {
         if (this.options.autoplay) {
@@ -11072,20 +11052,20 @@ var BookBlock = /** @class */ (function () {
     BookBlock.prototype._createPage = function (dir, index) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            var $spinner = $("#bb-spinner");
-            $spinner.removeClass("bb-not-loading");
+            var $spinner = $(constants_1.CssIds._SPINNER);
+            $spinner.removeClass(constants_1.CssClasses.NOT_LOADING);
             var itemsCount = _this.itemsCount;
             // magic formula by https://dev.to/maurobringolf/a-neat-trick-to-compute-modulo-of-negative-numbers-111e
-            var subIndex = (dir === "prev") ? index - 1 : index + 1;
+            var subIndex = !dir ? index - 1 : index + 1;
             _this.modulatedNextIndex = utils_1.BookBlockUtil.mod(subIndex, itemsCount);
-            console.log("next to load is " + _this.modulatedNextIndex + "_0");
+            console.log("next to load is " + _this.modulatedNextIndex + "_0," + utils_1.BookBlockUtil.mod(index, itemsCount) + "_0 ");
             var path;
             var $img = null;
             if (_this.modulatedNextIndex != null) {
-                path = $("#bb-bookblock").data().bbsrcset[_this.modulatedNextIndex].path;
-                $img = $("#bb-bookblock").find("img").eq(_this.modulatedNextIndex);
+                path = _this.$el.data().bbsrcset[_this.modulatedNextIndex].path;
+                $img = _this.$el.find("img").eq(_this.modulatedNextIndex);
                 $img.on("load", function (e) {
-                    $spinner.addClass("bb-not-loading");
+                    $spinner.addClass(constants_1.CssClasses.NOT_LOADING);
                     $(e.target).fadeIn();
                     console.log("image should be loaded atp");
                     resolve();
@@ -11097,12 +11077,12 @@ var BookBlock = /** @class */ (function () {
     // public method: flips next
     BookBlock.prototype.next = function () {
         console.log("next ...");
-        this._action(this.options.direction === "ltr" ? "next" : "prev");
+        this._action(this.options.ltr);
     };
     // public method: flips back
     BookBlock.prototype.prev = function () {
         console.log("previous ...");
-        this._action(this.options.direction === "ltr" ? "prev" : "next");
+        this._action(!this.options.ltr);
     };
     // public method: goes to a specific page
     BookBlock.prototype.jump = function (page) {
@@ -11111,11 +11091,11 @@ var BookBlock = /** @class */ (function () {
             return false;
         }
         var dir;
-        if (this.options.direction === "ltr") {
-            dir = page > this.current ? "next" : "prev";
+        if (this.options.ltr) {
+            dir = page > this.current ? true : false;
         }
         else {
-            dir = page > this.current ? "prev" : "next";
+            dir = page > this.current ? false : true;
         }
         this._action(dir, page);
     };
@@ -11135,7 +11115,7 @@ var BookBlock = /** @class */ (function () {
     // call this method after inserting new "bb-item" elements inside the BookBlock
     BookBlock.prototype.update = function () {
         var $currentItem = this.$items.eq(this.current);
-        this.$items = this.$el.children(".bb-item");
+        this.$items = this.$el.children(constants_1.CssClasses._ITEM);
         this.itemsCount = this.$items.length;
         this.current = $currentItem.index();
     };
@@ -11181,25 +11161,46 @@ $.fn.bookBlock = Object.assign(function (options) {
     //         }
     var $container = $(this);
     if (options.effects.paper) {
-        $container.addClass("bb-paper-effect");
+        $container.addClass(constants_1.CssClasses.PAPER_EFFECT);
     }
     if (options.effects.bordershadow) {
-        $container.addClass("bb-dropshadow-effect");
+        $container.addClass(constants_1.CssClasses.DROPSHADOW_EFFECT);
     }
     var $spinner = $("<div/>")
-        .addClass(["bb-loading-pulse", "bb-not-loading"])
-        .attr("id", "bb-spinner");
+        .addClass([constants_1.CssClasses.LOADING_PULSE, constants_1.CssClasses.NOT_LOADING])
+        .attr("id", constants_1.CssIds.SPINNER);
     $container.append($spinner);
     var $img = $container.find("img");
     var eqVal = utils_1.BookBlockUtil.mod(options.startPage - 1, $img.length);
+    var initialQSPageValue;
+    if (options.history) {
+        initialQSPageValue = utils_1.BookBlockUtil.getQueryField("page");
+        var initialQSPageNumberValue = Number.parseInt(initialQSPageValue, 10);
+        if (Number.isInteger(initialQSPageNumberValue)) {
+            if (initialQSPageNumberValue === 0 || initialQSPageNumberValue < 0) {
+                initialQSPageNumberValue = 1;
+                utils_1.BookBlockUtil.addQueryField("page", (utils_1.BookBlockUtil.mod(initialQSPageNumberValue - 1, $img.length) + 1).toString());
+            }
+            else if (initialQSPageNumberValue > $img.length) {
+                console.log("initialQSPageNumberValue is " + initialQSPageNumberValue);
+                initialQSPageNumberValue = utils_1.BookBlockUtil.mod(initialQSPageNumberValue - 1, $img.length);
+                console.log("initialQSPageNumberValue is " + initialQSPageNumberValue);
+                utils_1.BookBlockUtil.addQueryField("page", (initialQSPageNumberValue + 1).toString());
+                eqVal = initialQSPageNumberValue;
+            }
+            else {
+                eqVal = utils_1.BookBlockUtil.mod(initialQSPageNumberValue - 1, $img.length);
+            }
+        }
+    }
     $img.each(function (index, element) {
         var path = $(element).data("bbsrc");
         $pathArray.push({ index: index, path: path });
     });
     // attach image paths
     $container.data("bbsrcset", $pathArray);
+    console.log("eqVal is " + eqVal);
     $img.eq(eqVal).attr("src", $img.eq(eqVal).data("bbsrc"));
-    console.log(options.startPage);
     var setImage = function () {
         if (!$img.length) {
             return true;
@@ -11247,9 +11248,8 @@ $.fn.bookBlock = Object.assign(function (options) {
         tmpImage.onload = function () {
             var imgRatio = tmpImage.width / tmpImage.height;
             setSizes(imgRatio);
-            $img.addClass("fadeIn");
+            $img.addClass(constants_1.CssClasses.FADEIN);
         };
-        console.log("eq is " + eqVal);
         tmpImage.src = $img.eq(eqVal).attr("src");
     };
     $window.on("resize", setImage);
@@ -11271,7 +11271,7 @@ $.fn.bookBlock = Object.assign(function (options) {
         // vertical or horizontal flip
         orientation: "vertical",
         // ltr (left to right) or rtl (right to left)
-        direction: "ltr",
+        ltr: true,
         // speed for the flip transition in ms
         speed: 1000,
         // easing for the flip transition
@@ -11317,8 +11317,44 @@ $.fn.bookBlock = Object.assign(function (options) {
             bordershadow: null,
             paper: null,
         },
+        // history
+        history: false,
     },
 });
+
+});
+___scope___.file("src/ts/constants.js", function(exports, require, module, __filename, __dirname){
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var CssClasses;
+(function (CssClasses) {
+    CssClasses["CONTENT"] = "bb-content";
+    CssClasses["FADEIN"] = "bb-fadeIn";
+    CssClasses["FLIP_NEXT_END"] = "bb-flip-next-end";
+    CssClasses["FLIP_NEXT"] = "bb-flip-next";
+    CssClasses["FLIP_INITIAL"] = "bb-flip-initial";
+    CssClasses["FRONT"] = "bb-front";
+    CssClasses["BACK"] = "bb-back";
+    CssClasses["OUTER"] = "bb-outer";
+    CssClasses["INNER"] = "bb-inner";
+    CssClasses["DROPSHADOW_EFFECT"] = "bb-dropshadow-effect";
+    CssClasses["LOADING_PULSE"] = "bb-loading-pulse";
+    CssClasses["NOT_LOADING"] = "bb-not-loading";
+    CssClasses["OVERLAY"] = "bb-overlay";
+    CssClasses["_OVERLAY"] = ".bb-overlay";
+    CssClasses["PAPER_EFFECT"] = "bb-paper-effect";
+    CssClasses["PAGE"] = "bb-page";
+    CssClasses["_PAGE"] = ".bb-page";
+    CssClasses["_ITEM"] = ".bb-item";
+})(CssClasses = exports.CssClasses || (exports.CssClasses = {}));
+var CssIds;
+(function (CssIds) {
+    CssIds["SPINNER"] = "bb-spinner";
+    CssIds["_SPINNER"] = "#bb-spinner";
+})(CssIds = exports.CssIds || (exports.CssIds = {}));
+exports.NEXT = true;
+exports.PREV = false;
 
 });
 ___scope___.file("src/ts/utils.js", function(exports, require, module, __filename, __dirname){
@@ -11346,6 +11382,25 @@ var BookBlockUtil = /** @class */ (function () {
         if (window.console) {
             window.console.error(message);
         }
+    };
+    BookBlockUtil.getQueryField = function (key) {
+        var url = new window.URL(window.location.href);
+        if (url.searchParams.has(key)) {
+            return url.searchParams.get(key);
+        }
+        return null;
+    };
+    BookBlockUtil.addQueryField = function (key, value) {
+        var url = new window.URL(window.location.href);
+        if (url.searchParams.has(key)) {
+            url.searchParams.set(key, value);
+        }
+        else {
+            url.searchParams.append(key, value);
+        }
+        history.pushState({
+            id: "booblockhistory",
+        }, "", url.href);
     };
     return BookBlockUtil;
 }());
